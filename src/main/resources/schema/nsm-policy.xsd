@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+       <xs:element name="Policy">
+              <xs:complexType>
+                     <xs:sequence>
+                     		<xs:element name="Batch_ID" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
+                     		<xs:element name="File_ID" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
+                     		<xs:element name="Valid" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
+                            <xs:element name="Entity_ID" type="xs:int"></xs:element>
+                            <xs:element name="Contract_ID" type="xs:int"></xs:element>
+                            <xs:element name="Line_Code" type="xs:string"></xs:element>
+                            <xs:element name="Sub_Line" type="xs:string"></xs:element>
+                            <xs:element name="Contract_Num" type="xs:string"></xs:element>
+                            <xs:element name="Contract_State" type="xs:string"></xs:element>
+                            <xs:element name="Revision_Object_Code" type="xs:string"></xs:element>
+                            <xs:element name="Incept_Date" type="xs:string"></xs:element>
+                            <xs:element name="Eff_Date" type="xs:string"></xs:element>
+                            <xs:element name="Exp_Date" type="xs:string"></xs:element>
+                            <xs:element name="Revision_Eff_Date" type="xs:string"></xs:element>
+                            <xs:element name="Revision_Exp_Date" type="xs:string"></xs:element>
+                            <xs:element name="Cancel_Date" type="xs:string"></xs:element>
+                            <xs:element name="Reinstate_Date" type="xs:string"></xs:element>
+                            <xs:element name="Created_On" type="xs:string"></xs:element>
+                            <xs:element name="Prior_Contract_Num" type="xs:string"></xs:element>
+                            <xs:element name="Original_Contract_Num" type="xs:string"></xs:element>
+                            <xs:element name="Renewed_Ind" type="xs:string"></xs:element>
+                            <xs:element name="Renewal_Term" type="xs:int"></xs:element>
+                            <xs:element name="New_To_Book_Ind" type="xs:string"></xs:element>
+                            <xs:element name="New_To_Supplier_Ind" type="xs:string"></xs:element>
+                            <xs:element name="Non_Renew_Ind" type="xs:string"></xs:element>
+                            <xs:element name="Revision_Num" type="xs:int"></xs:element>
+                            <xs:element name="Endorse_Num" type="xs:int" minOccurs="0" maxOccurs="1"></xs:element>
+                            <xs:element name="Inst_Bill_Ind" type="xs:string"></xs:element>
+                            <xs:element name="Written_Prem" type="xs:double"></xs:element>
+                            <xs:element name="Full_Term_Prem" type="xs:double"></xs:element>
+                            <xs:element name="Billed_Prem" type="xs:double"></xs:element>
+                            <xs:element name="Written_Fee" type="xs:double"></xs:element>
+                            <xs:element name="Full_Term_Fee" type="xs:double"></xs:element>
+                            <xs:element name="Billed_Fee" type="xs:double"></xs:element>
+                            <xs:element name="Written_Tax" type="xs:double"></xs:element>
+                            <xs:element name="Full_Term_Tax" type="xs:double"></xs:element>
+                            <xs:element name="Billed_Tax" type="xs:double"></xs:element>
+                            <xs:element name="Net_Change_Prem" type="xs:double"></xs:element>
+                            <xs:element name="Net_Change_Tax" type="xs:double"></xs:element>
+                            <xs:element name="Net_Change_Fee" type="xs:double"></xs:element>
+                            <xs:element name="Unbilled_Prem" type="xs:double"></xs:element>
+                            <xs:element name="Unbilled_Tax" type="xs:double"></xs:element>
+                            <xs:element name="Unbilled_Fee" type="xs:double"></xs:element>
+                            <xs:element name="Booked_Prem" type="xs:double"></xs:element>
+                            <xs:element name="Booked_Tax" type="xs:double"></xs:element>
+                            <xs:element name="Booked_Fee" type="xs:double"></xs:element>
+                            <xs:element name="Min_Earned_Amount" type="xs:double"></xs:element>
+                            <xs:element name="Entity_Name" type="xs:string"></xs:element>
+                            <xs:element name="Indv_First_Name" type="xs:string"></xs:element>
+                            <xs:element name="Indv_Middle_Name"></xs:element>
+                            <xs:element name="Indv_Last_Name" type="xs:string"></xs:element>
+                            <xs:element name="Mail_Address_1" type="xs:string"></xs:element>
+                            <xs:element name="Mail_City" type="xs:string"></xs:element>
+                            <xs:element name="Mail_County" type="xs:string"></xs:element>
+                            <xs:element name="Mail_Zip" type="xs:int"></xs:element>
+                            <xs:element name="Mail_State" type="xs:string"></xs:element>
+                            <xs:element name="Accept_Limit_Usage" type="xs:string"></xs:element>
+                            <xs:element name="All_Adults_Gen_Use_Veh" type="xs:string"></xs:element>
+                            <xs:element name="Enclosed_Private_Garage" type="xs:string"></xs:element>
+                            <xs:element name="Any_Fire_Flood_Claims" type="xs:string"></xs:element>
+                            <xs:element name="Any_Repairs_Done" type="xs:string"></xs:element>
+                            <xs:element name="Active_Military" type="xs:string"></xs:element>
+                            <xs:element name="All_Veh_Cust_Control" type="xs:string"></xs:element>
+                            <xs:element name="Inexperienced_Drivers" type="xs:string"></xs:element>
+                            <xs:element name="At_Fault_Accidents" type="xs:string"></xs:element>
+                            <xs:element name="DUI_Reckless_Conviction" type="xs:string"></xs:element>
+                            <xs:element name="Drivers">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="Driver">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="Contract_ID" type="xs:int"></xs:element>
+                                                                      <xs:element name="Article_ID" type="xs:int"></xs:element>
+                                                                      <xs:element name="Article_Desc" type="xs:string"></xs:element>
+                                                                      <xs:element name="Article_Type" type="xs:string"></xs:element>
+                                                                      <xs:element name="Article_Class" type="xs:string"></xs:element>
+                                                                      <xs:element name="Status" type="xs:string"></xs:element>
+                                                                      <xs:element name="Book_Driver_Num" type="xs:int"></xs:element>
+                                                                      <xs:element name="Insured_Type" type="xs:string"></xs:element>
+                                                                      <xs:element name="Excluded_Ind" type="xs:string"></xs:element>
+                                                                      <xs:element name="Relation_To_Applicant" type="xs:string"></xs:element>
+                                                                      <xs:element name="Relation_To_Applicant_Desc" type="xs:string"></xs:element>
+                                                                      <xs:element name="Defensive_Driver_Ind" type="xs:string"></xs:element>
+                                                                      <xs:element name="Will_Drive_Insured_Vehicle" type="xs:string"></xs:element>
+                                                                      <xs:element name="Assigned_Risk_Ind" type="xs:string"></xs:element>
+                                                                      <xs:element name="Driving_Experience" type="xs:int"></xs:element>
+                                                                      <xs:element name="Birth_Date" type="xs:string"></xs:element>
+                                                                      <xs:element name="Occupation_Class" type="xs:string"></xs:element>
+                                                                      <xs:element name="Occupation_Class_Desc" type="xs:string"></xs:element>
+                                                                      <xs:element name="Drvr_Lic_Num" type="xs:string"></xs:element>
+                                                                      <xs:element name="Drvr_Lic_State" type="xs:string"></xs:element>
+                                                                      <xs:element name="Marital_Status" type="xs:string"></xs:element>
+                                                                      <xs:element name="Marital_Status_Desc" type="xs:string"></xs:element>
+                                                                      <xs:element name="mvr_clean_record_ind" type="xs:string"></xs:element>
+                                                                      <xs:element name="Violations"></xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                             </xs:sequence>
+                                      </xs:complexType>
+                               </xs:element>
+                            <xs:element name="Vehicles">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="Vehicle" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="Contract_ID" type="xs:int"></xs:element>
+                                                                      <xs:element name="Article_ID" type="xs:int"></xs:element>
+                                                                      <xs:element name="Article_Desc" type="xs:string"></xs:element>
+                                                                      <xs:element name="Article_Type" type="xs:string"></xs:element>
+                                                                      <xs:element name="Article_Class" type="xs:string"></xs:element>
+                                                                      <xs:element name="Status" type="xs:string"></xs:element>
+                                                                      <xs:element name="Comp_Veh_Num" type="xs:int"></xs:element>
+                                                                      <xs:element name="Book_Veh_Num" type="xs:int"></xs:element>
+                                                                      <xs:element name="Veh_Year" type="xs:int"></xs:element>
+                                                                      <xs:element name="Veh_Make" type="xs:string"></xs:element>
+                                                                      <xs:element name="Veh_Model" type="xs:string"></xs:element>
+                                                                      <xs:element name="Veh_Body_Type_Code" type="xs:string"></xs:element>
+                                                                      <xs:element name="Veh_Vody_Type_Desc" type="xs:string"></xs:element>
+                                                                      <xs:element name="Veh_Type_Code" type="xs:int"></xs:element>
+                                                                      <xs:element name="Veh_Type_Desc" type="xs:string"></xs:element>
+                                                                      <xs:element name="VIN" type="xs:string"></xs:element>
+                                                                      <xs:element name="Garaging_Code" type="xs:string"></xs:element>
+                                                                      <xs:element name="Garaging_Desc" type="xs:string"></xs:element>
+                                                                      <xs:element name="Annual_Mileage" type="xs:int"></xs:element>
+                                                                      <xs:element name="Stated_Amount" type="xs:double"></xs:element>
+                                                                      <xs:element name="Condition_Code" type="xs:string"></xs:element>
+                                                                      <xs:element name="Condition_Desc" type="xs:string"></xs:element>
+                                                                      <xs:element name="Usage_Car_Shows_Ind" type="xs:string"></xs:element>
+                                                                      <xs:element name="Usage_Visitors_Ind" type="xs:string"></xs:element>
+                                                                      <xs:element name="Usage_Maintenance_Ind" type="xs:string"></xs:element>
+                                                                      <xs:element name="Usage_Racing_Ind" type="xs:string"></xs:element>
+                                                                      <xs:element name="Usage_Drivers_Ed_Events_Ind" type="xs:string"></xs:element>
+                                                                      <xs:element name="Usage_General_Transport_Ind" type="xs:string"></xs:element>
+                                                                      <xs:element name="Usage_Errands_Ind" type="xs:string"></xs:element>
+                                                                      <xs:element name="Usage_Work_Ind" type="xs:string"></xs:element>
+                                                                      <xs:element name="Usage_Vacation_Ind" type="xs:string"></xs:element>
+                                                                      <xs:element name="Usage_Restaurants_Ind" type="xs:string"></xs:element>
+                                                                      <xs:element name="Usage_Recreational_Ind" type="xs:string"></xs:element>
+                                                                      <xs:element name="Usage_Off_Road_Ind" type="xs:string"></xs:element>
+                                                                      <xs:element name="Usage_Other_Ind" type="xs:string"></xs:element>
+                                                                      <xs:element name="Registration_Country" type="xs:string"></xs:element>
+                                                                      <xs:element name="Locations">
+                                                                             <xs:complexType>
+                                                                                    <xs:sequence>
+                                                                                           <xs:element name="Location">
+                                                                                                  <xs:complexType>
+                                                                                                         <xs:sequence>
+                                                                                                                <xs:element name="Contract_ID" type="xs:int"></xs:element>
+                                                                                                                <xs:element name="Article_ID" type="xs:int"></xs:element>
+                                                                                                                <xs:element name="book_veh_num" type="xs:int"></xs:element>
+                                                                                                                <xs:element name="Loc_Num" type="xs:int"></xs:element>
+                                                                                                                <xs:element name="Loc_Desc" type="xs:string"></xs:element>
+                                                                                                                <xs:element name="Address_Line_1" type="xs:string"></xs:element>
+                                                                                                                <xs:element name="City" type="xs:string"></xs:element>
+                                                                                                                <xs:element name="State" type="xs:string"></xs:element>
+                                                                                                                <xs:element name="Zip" type="xs:int"></xs:element>
+                                                                                                                <xs:element name="Country" type="xs:string"></xs:element>
+                                                                                                            </xs:sequence>
+                                                                                                     </xs:complexType>
+                                                                                              </xs:element>
+                                                                                       </xs:sequence>
+                                                                                </xs:complexType>
+                                                                         </xs:element>
+                                                                      <xs:element name="Vehicle_Products">
+                                                                             <xs:complexType>
+                                                                                    <xs:sequence>
+                                                                                           <xs:element name="Vehicle_Product" maxOccurs="unbounded">
+                                                                                                  <xs:complexType>
+                                                                                                         <xs:sequence>
+                                                                                                                <xs:element name="Contract_ID" type="xs:int"></xs:element>
+                                                                                                                <xs:element name="Article_ID" type="xs:int"></xs:element>
+                                                                                                                <xs:element name="Product_Cost_Type" type="xs:string"></xs:element>
+                                                                                                                <xs:element name="Full_Term_Amount" type="xs:double"></xs:element>
+                                                                                                                <xs:element name="Written_Amount" type="xs:double"></xs:element>
+                                                                                                                <xs:element name="Unbilled_Amount" type="xs:double"></xs:element>
+                                                                                                                <xs:element name="Net_Change_Amount" type="xs:double"></xs:element>
+                                                                                                                <xs:element name="Fully_Earned_Ind" type="xs:string"></xs:element>
+                                                                                                                <xs:element name="Product_Desc" type="xs:string"></xs:element>
+                                                                                                                <xs:element name="Product_Code" type="xs:string"></xs:element>
+                                                                                                                <xs:element name="MPA_Or_Disc_Surcharge_Selection" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
+                                                                                                                <xs:element name="Ded_1" type="xs:int" minOccurs="0" maxOccurs="1"></xs:element>
+                                                                                                                <xs:element name="Limit_1" type="xs:int" minOccurs="0" maxOccurs="1"></xs:element>
+                                                                                                                <xs:element name="Dollar_or_Percent" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
+                                                                                                                <xs:element name="Rejected_Ind" type="xs:string"></xs:element>
+                                                                                                            </xs:sequence>
+                                                                                                     </xs:complexType>
+                                                                                              </xs:element>
+                                                                                       </xs:sequence>
+                                                                                </xs:complexType>
+                                                                         </xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                             </xs:sequence>
+                                      </xs:complexType>
+                               </xs:element>
+                            <xs:element name="Policy_Articles">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="Policy_Article">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="Contract_ID" type="xs:int"></xs:element>
+                                                                      <xs:element name="Article_ID" type="xs:int"></xs:element>
+                                                                      <xs:element name="Article_Desc" type="xs:string"></xs:element>
+                                                                      <xs:element name="Article_Type" type="xs:string"></xs:element>
+                                                                      <xs:element name="Article_Class" type="xs:string"></xs:element>
+                                                                      <xs:element name="Status" type="xs:string"></xs:element>
+                                                                      <xs:element name="Policy_Products">
+                                                                             <xs:complexType>
+                                                                                    <xs:sequence>
+                                                                                           <xs:element name="Policy_Product" maxOccurs="unbounded">
+                                                                                                  <xs:complexType>
+                                                                                                         <xs:sequence>
+                                                                                                                <xs:element name="Contract_ID" type="xs:int"></xs:element>
+                                                                                                                <xs:element name="Article_ID" type="xs:int"></xs:element>
+                                                                                                                <xs:element name="Product_Cost_Type" type="xs:string"></xs:element>
+                                                                                                                <xs:element name="Full_Term_Amount" type="xs:double"></xs:element>
+                                                                                                                <xs:element name="Written_Amount" type="xs:double"></xs:element>
+                                                                                                                <xs:element name="Unbilled_Amount" type="xs:double"></xs:element>
+                                                                                                                <xs:element name="Net_Change_Amount" type="xs:double"></xs:element>
+                                                                                                                <xs:element name="Fully_Earned_Ind" type="xs:string"></xs:element>
+                                                                                                                <xs:element name="Product_Desc" type="xs:string"></xs:element>
+                                                                                                                <xs:element name="Product_Code" type="xs:string"></xs:element>
+                                                                                                                <xs:element name="Limit_1" type="xs:int" minOccurs="0" maxOccurs="1"></xs:element>
+                                                                                                                <xs:element name="Rejected_Ind" type="xs:string"></xs:element>
+                                                                                                            </xs:sequence>
+                                                                                                     </xs:complexType>
+                                                                                              </xs:element>
+                                                                                       </xs:sequence>
+                                                                                </xs:complexType>
+                                                                         </xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                             </xs:sequence>
+                                      </xs:complexType>
+                               </xs:element>
+                        </xs:sequence>
+                 </xs:complexType>
+          </xs:element>
+   </xs:schema>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Swap-in Oracle instead of MySQL during onsite deployment -->
+    <!-- <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" 
+		destroy-method="close"> -->
+    <!-- <property name="driverClassName" value="oracle.jdbc.OracleDriver"/> -->
+    <!-- <property name="url" value="{{oracle.datasource.url}}"/> -->
+    <!-- <property name="username" value="{{oracle.datasource.username}}"/> -->
+    <!-- <property name="password" value="{{oracle.datasource.password}}"/> -->
+    <!-- <property name="maxIdle" value="{{oracle.datasource.maxIdle}}"/> -->
+    <!-- <property name="maxActive" value="{{oracle.datasource.maxActive}}"/> -->
+    <!-- </bean> -->
+
+	<bean class="com.mysql.jdbc.jdbc2.optional.MysqlDataSource" id="dataSource">
+		<property name="serverName" value="${mysql.datasource.serverName}" />
+		<property name="databaseName" value="${mysql.datasource.databaseName}" />
+		<property name="port" value="${mysql.datasource.port}" />
+		<property name="user" value="${mysql.datasource.user}" />
+		<property name="password" value="${mysql.datasource.password}" />
+	</bean>
+	<!-- configure the Camel SQL component to use the JDBC data source -->
+	<bean class="org.apache.camel.component.sql.SqlComponent" id="sql">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+</beans>

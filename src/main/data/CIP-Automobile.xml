@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Policies name="PCGAuto" version="1.0" rootEntityType="policy">
+    <Policy state="Created">
+        <accountingPeriod>2017-10</accountingPeriod>
+        <addressSameGar>false</addressSameGar>
+        <cancellationNoticeNumber>0</cancellationNoticeNumber>
+        <cappingFactor>0.0000000</cappingFactor>
+        <collectorscarinnb>0</collectorscarinnb>
+        <commissionOverride>false</commissionOverride>
+        <commissionRate>17.50</commissionRate>
+        <commissionWaived>false</commissionWaived>
+        <convExpCreditScore>690</convExpCreditScore>
+        <convExpTierExposurePolMakeup>0</convExpTierExposurePolMakeup>
+        <convExpTierIncidentFreeYears>0</convExpTierIncidentFreeYears>
+        <convOrgnlEarlyShopEffDt>2016-10-28T00:00:00.000</convOrgnlEarlyShopEffDt>
+        <convOrgnlEarlyShopRateEffDt>2017-07-29T00:00:00.000</convOrgnlEarlyShopRateEffDt>
+        <convOriginalRateEffDt>2016-10-28T00:00:00.000</convOriginalRateEffDt>
+        <countryCd>US</countryCd>
+        <coverageType>SINGLE</coverageType>
+        <customerNumber>0005122846</customerNumber>
+        <earlyShopperDayDifference>9</earlyShopperDayDifference>
+        <effective>2017-10-28T00:00:00.000</effective>
+        <expiration>2018-10-28T00:00:00.000</expiration>
+        <flagRenewalInd>false</flagRenewalInd>
+        <inceptionDate>2016-10-28T00:00:00.000</inceptionDate>
+        <insuranceScore>690</insuranceScore>
+        <insuranceScoreDate>2017-10-28T00:00:00.000</insuranceScoreDate>
+        <insuredNameOnDoc>Georgia Smith</insuredNameOnDoc>
+        <namedNonOwnedPolicyInd>false</namedNonOwnedPolicyInd>
+        <nbmaxacoverage>0</nbmaxacoverage>
+        <nbnoncatclaims>false</nbnoncatclaims>
+        <paidInFull>false</paidInFull>
+        <pcginitialeffectivedate>2016-10-28T00:00:00.000</pcginitialeffectivedate>
+        <policyNumber>PAP0114743</policyNumber>
+        <policyTitle>Georgia Smith</policyTitle>
+        <prevRenewalCycleNum>1</prevRenewalCycleNum>
+        <primaryResidenceInd>true</primaryResidenceInd>
+        <priorPolicyPrem>6104</priorPolicyPrem>
+        <priorToPriorTermPrem>6104</priorToPriorTermPrem>
+        <producerCd>0050679</producerCd>
+        <productCd>PCGAuto</productCd>
+        <rateEffectiveDate>2017-07-29T00:00:00.000</rateEffectiveDate>
+        <rateRequestDate>2017-07-29T00:00:00.000</rateRequestDate>
+        <rateStabilizationFactor1>0.00</rateStabilizationFactor1>
+        <rateStabilizationFactor2>0.00</rateStabilizationFactor2>
+        <rateStabilizationFactor3>0.00</rateStabilizationFactor3>
+        <renewalLocked>false</renewalLocked>
+        <riskStateCd>GA</riskStateCd>
+        <subProducerCd>9999998</subProducerCd>
+        <tierOwner>true</tierOwner>
+        <underwriterCd>0028</underwriterCd>
+        <AccidentBenefitACCDEATHCoverage state="Created">
+            <limitAmount>5000.00</limitAmount>
+        </AccidentBenefitACCDEATHCoverage>
+        <AdditionalPersonswithExtendedUMBIUAB state="Created">
+            <extendedUMBI>0</extendedUMBI>
+        </AdditionalPersonswithExtendedUMBIUAB>
+        <Driver oid="1" state="Created">
+            <age>47</age>
+            <ageFirstLicensed>16</ageFirstLicensed>
+            <annualIncome>0</annualIncome>
+            <birthDate>1970-09-01T00:00:00.000</birthDate>
+            <convOldDriverNumber>001</convOldDriverNumber>
+            <driverRelToApplicantCd>IN</driverRelToApplicantCd>
+            <driverTypeCd>L</driverTypeCd>
+            <firstName>Georgia</firstName>
+            <genderCd>male</genderCd>
+            <lastName>Smith</lastName>
+            <licensePermitNumber>4RH8YWHFUHF8Y48</licensePermitNumber>
+            <licenseStatusCd>VALID</licenseStatusCd>
+            <maritalStatusCode>M</maritalStatusCode>
+            <stateProvCd>GA</stateProvCd>
+            <surchargeOverride>E</surchargeOverride>
+            <suspendedInd>false</suspendedInd>
+            <DriverRatingInfo state="Created">
+                <alcCourseDisc>false</alcCourseDisc>
+                <collGraduateSchAchDisc>false</collGraduateSchAchDisc>
+                <defensiveDriver>false</defensiveDriver>
+                <distantStudentInd>false</distantStudentInd>
+                <driverTraining>false</driverTraining>
+                <employeegarage>false</employeegarage>
+                <matureDriverImpInd>false</matureDriverImpInd>
+                <militaryService>false</militaryService>
+                <suspensionRevocationInd>false</suspensionRevocationInd>
+            </DriverRatingInfo>
+            <DriverSR22Info state="Created">
+                <sr22FillingInd>false</sr22FillingInd>
+            </DriverSR22Info>
+            <ChartisExtInterfacesReport>
+                <reportReceivedDate>2017-10-28T00:00:00.000</reportReceivedDate>
+                <reportStage>SAVED</reportStage>
+                <reportType>RISK_SCORE</reportType>
+                <sendingTime>2017-10-28T00:00:00.000</sendingTime>
+                <statusMessage>Received</statusMessage>
+                <success>true</success>
+            </ChartisExtInterfacesReport>
+        </Driver>
+        <IncomeLossBenefitsLIBCoverage state="Created">
+            <applicable>false</applicable>
+        </IncomeLossBenefitsLIBCoverage>
+        <Insured state="Created">
+            <education>UK</education>
+            <firstName>Georgia</firstName>
+            <highProfile>false</highProfile>
+            <incidentBusinessThreshold>false</incidentBusinessThreshold>
+            <lastName>Smith</lastName>
+            <nameTypeCd>INDV</nameTypeCd>
+            <occupationClassCd>20</occupationClassCd>
+            <other>Migration</other>
+            <ownEntity>3</ownEntity>
+            <personalOrDomesticStaff>false</personalOrDomesticStaff>
+            <primaryInsured>true</primaryInsured>
+            <purposeOfEntity>false</purposeOfEntity>
+            <typeOfOccupation>378</typeOfOccupation>
+            <PrimaryInsuredMailingAddress state="Created">
+                <address.addressLine1>1 Main Street</address.addressLine1>
+                <address.city>Atlanta</address.city>
+                <address.countryCd>US</address.countryCd>
+                <address.postalCode>30303</address.postalCode>
+                <address.stateProvCd>GA</address.stateProvCd>
+                <updateBillingMailingInd>false</updateBillingMailingInd>
+            </PrimaryInsuredMailingAddress>
+        </Insured>
+        <InsuredMailingAddress state="Created">
+            <address.addressLine1>1 Main Street</address.addressLine1>
+            <address.countryCd>US</address.countryCd>
+            <address.postalCode>30303</address.postalCode>
+            <address.stateProvCd>GA</address.stateProvCd>
+            <city>Atlanta</city>
+            <city2>Atlanta</city2>
+            <isDiaplayAddress>false</isDiaplayAddress>
+        </InsuredMailingAddress>
+        <LiabilityLimitsCSLCoverage state="Created">
+            <limitAmount>75000.00</limitAmount>
+        </LiabilityLimitsCSLCoverage>
+        <MedicalPaymentsMEDCoverage state="Created">
+            <limitAmount>2000.00</limitAmount>
+        </MedicalPaymentsMEDCoverage>
+        <OtherProduct state="Created">
+            <aigLife>17</aigLife>
+            <aigLifePolicyNum>0000000000</aigLifePolicyNum>
+            <pcgArticles>false</pcgArticles>
+            <pcgExessLiab>false</pcgExessLiab>
+            <pcgHome>false</pcgHome>
+            <premierArticles>false</premierArticles>
+            <premierExessLiab>false</premierExessLiab>
+            <premierHome>false</premierHome>
+        </OtherProduct>
+        <PersonalPropertyCPPCoverage state="Created">
+            <applicable>false</applicable>
+        </PersonalPropertyCPPCoverage>
+        <PETCoverage state="Created">
+            <applicable>false</applicable>
+        </PETCoverage>
+        <PolicyAdditionalInfo state="Created">
+            <assignedRisk>1</assignedRisk>
+            <bookTransferRemarket>false</bookTransferRemarket>
+            <cancelled>false</cancelled>
+            <isPolReissueOrRewrite>false</isPolReissueOrRewrite>
+            <otherCarrier>OTHER</otherCarrier>
+            <prioCarrierCd>16</prioCarrierCd>
+            <priorCarrTenure>12</priorCarrTenure>
+            <priorLiabLimit>4</priorLiabLimit>
+        </PolicyAdditionalInfo>
+        <PolicyCredit state="Created">
+            <affinityCredit>2</affinityCredit>
+            <armedForces>false</armedForces>
+            <seasonaldiscount>false</seasonaldiscount>
+        </PolicyCredit>
+        <ReducedUMCoverage state="Created">
+            <reducedUm>false</reducedUm>
+        </ReducedUMCoverage>
+        <RoadsideRDCCoverage state="Created">
+            <applicable>false</applicable>
+        </RoadsideRDCCoverage>
+        <TotalDisabilityBenefitsTDECoverage state="Created">
+            <applicable>false</applicable>
+        </TotalDisabilityBenefitsTDECoverage>
+        <TotalDisabilityBenefitsTDNCoverage state="Created">
+            <applicable>false</applicable>
+        </TotalDisabilityBenefitsTDNCoverage>
+        <TripInterruptionEmergencyLivingTELCoverage state="Created">
+            <applicable>false</applicable>
+        </TripInterruptionEmergencyLivingTELCoverage>
+        <UMCSLCoverage state="Created">
+            <limitAmount>75000.00</limitAmount>
+            <umtype>CSL</umtype>
+        </UMCSLCoverage>
+        <UninsuredMotoristsBICoverage state="Created">
+            <convertedCoverage>false</convertedCoverage>
+        </UninsuredMotoristsBICoverage>
+        <Vehicle oid="1" state="Created">
+            <abiCd>76305</abiCd>
+            <agreedValue>30200</agreedValue>
+            <annualMilesOvrd>false</annualMilesOvrd>
+            <avrgAnnualMiles>0</avrgAnnualMiles>
+            <classCode>P47I0000N</classCode>
+            <convoldVehicleNumber>001</convoldVehicleNumber>
+            <ctyTaxMintAmt>0.0000</ctyTaxMintAmt>
+            <ctyTaxPercAmt>0.0000</ctyTaxPercAmt>
+            <engineSize>0</engineSize>
+            <firstPotDamage>false</firstPotDamage>
+            <fullGlass>BOTH</fullGlass>
+            <greyMarket>true</greyMarket>
+            <height>064.4</height>
+            <isMedPayEffect>false</isMedPayEffect>
+            <liability>true</liability>
+            <manufacturer>LNDR</manufacturer>
+            <marketValue>30200</marketValue>
+            <model>RANGE ROVE</model>
+            <modelYear>2013</modelYear>
+            <ovrdFirstPotDamage>false</ovrdFirstPotDamage>
+            <ovrdTitleTransNo>false</ovrdTitleTransNo>
+            <printIDcards>true</printIDcards>
+            <repAnnualMiles>25937</repAnnualMiles>
+            <titleTransNo>3</titleTransNo>
+            <titleTransVerNo>3</titleTransVerNo>
+            <vehBodyTypeCd>Utility 4D</vehBodyTypeCd>
+            <vehExtendedNonOwnerVeh>false</vehExtendedNonOwnerVeh>
+            <vehIdentificationNo>SALVR2BG1DH843626</vehIdentificationNo>
+            <vehTypeCd>REGULAR</vehTypeCd>
+            <verAnnualMiles>25937</verAnnualMiles>
+            <verifiedFirstPotDamage>false</verifiedFirstPotDamage>
+            <vinStyle>76305</vinStyle>
+            <CashSettlementCoverage state="Created">
+                <cashSettlement>false</cashSettlement>
+            </CashSettlementCoverage>
+            <ChartisPAutoVehicleCredits state="Created">
+                <antiLockBrakeCd>ALBS</antiLockBrakeCd>
+                <applyMultiCarDiscountInd>false</applyMultiCarDiscountInd>
+                <autoBrake>true</autoBrake>
+                <blindSpotMonitor>true</blindSpotMonitor>
+                <dayLights>false</dayLights>
+                <driverAlertSys>true</driverAlertSys>
+                <guardGatedCom>true</guardGatedCom>
+                <hybrid>false</hybrid>
+                <hybridOrElectric>false</hybridOrElectric>
+                <laneDepartMonitor>true</laneDepartMonitor>
+                <overrideMultiCarDiscountInd>false</overrideMultiCarDiscountInd>
+                <passiveRestraints>1</passiveRestraints>
+                <securityOptionsCd>1</securityOptionsCd>
+            </ChartisPAutoVehicleCredits>
+            <ChartisPAutoVehicleOwnership state="Created">
+                <additionalOwnersInd>false</additionalOwnersInd>
+                <addressLine1>1 Main Street</addressLine1>
+                <city>Atlanta</city>
+                <country>US</country>
+                <financedInd>false</financedInd>
+                <firstName>GEORGIA</firstName>
+                <lastName>SMITH</lastName>
+                <location>Other</location>
+                <ownedInd>true</ownedInd>
+                <ownerType>INDIVIDUAL</ownerType>
+                <regOwner>1</regOwner>
+                <regOwnerOther>1</regOwnerOther>
+                <stateProvCd>GA</stateProvCd>
+                <zipCode>30303</zipCode>
+            </ChartisPAutoVehicleOwnership>
+            <GaragingAddress state="Created">
+                <addressLine1>1 Main Street</addressLine1>
+                <city>Atlanta</city>
+                <city2>Atlanta</city2>
+                <countryCd>US</countryCd>
+                <garaged>true</garaged>
+                <garagedSecondary>false</garagedSecondary>
+                <garagingLocation>OTHER</garagingLocation>
+                <postalCode>30303</postalCode>
+                <ratingTerritory>201</ratingTerritory>
+                <regionCd>1</regionCd>
+                <stateProvCd>GA</stateProvCd>
+                <storedInMasonry>false</storedInMasonry>
+            </GaragingAddress>
+            <PAutoACCDEATHDomainCoverage state="Created">
+                <limitAmount>5000</limitAmount>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>4.00</actualAmt>
+                    <changeAmt>4.00</changeAmt>
+                    <periodAmt>4.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>4.00</actualAmt>
+                    <changeAmt>4.00</changeAmt>
+                    <periodAmt>4.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>4.00</actualAmt>
+                    <changeAmt>4.00</changeAmt>
+                    <periodAmt>4.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoACCDEATHDomainCoverage>
+            <PAutoBIDomainCoverage state="Created"/>
+            <PAutoCOLLCoverage state="Created">
+                <deductibleAmount>500.00</deductibleAmount>
+            </PAutoCOLLCoverage>
+            <PAutoCOLLDomainCoverage state="Created">
+                <deductibleAmount>500</deductibleAmount>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>751.00</actualAmt>
+                    <changeAmt>751.00</changeAmt>
+                    <periodAmt>751.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>751.00</actualAmt>
+                    <changeAmt>751.00</changeAmt>
+                    <periodAmt>751.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>751.00</actualAmt>
+                    <changeAmt>751.00</changeAmt>
+                    <periodAmt>751.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoCOLLDomainCoverage>
+            <PAutoCOMPCoverage state="Created">
+                <deductibleAmount>500.00</deductibleAmount>
+            </PAutoCOMPCoverage>
+            <PAutoCOMPDomainCoverage state="Created">
+                <deductibleAmount>500</deductibleAmount>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>304.00</actualAmt>
+                    <changeAmt>304.00</changeAmt>
+                    <periodAmt>304.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>304.00</actualAmt>
+                    <changeAmt>304.00</changeAmt>
+                    <periodAmt>304.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>304.00</actualAmt>
+                    <changeAmt>304.00</changeAmt>
+                    <periodAmt>304.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoCOMPDomainCoverage>
+            <PAutoCPDomainCoverage state="Created">
+                <limitAmount>0</limitAmount>
+            </PAutoCPDomainCoverage>
+            <PAutoCSLDomainCoverage state="Created">
+                <limitAmount>75000</limitAmount>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>259.00</actualAmt>
+                    <changeAmt>259.00</changeAmt>
+                    <periodAmt>259.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>259.00</actualAmt>
+                    <changeAmt>259.00</changeAmt>
+                    <periodAmt>259.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>259.00</actualAmt>
+                    <changeAmt>259.00</changeAmt>
+                    <periodAmt>259.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoCSLDomainCoverage>
+            <PAutoMEDDomainCoverage state="Created">
+                <limitAmount>2000</limitAmount>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>23.00</actualAmt>
+                    <changeAmt>23.00</changeAmt>
+                    <periodAmt>23.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>23.00</actualAmt>
+                    <changeAmt>23.00</changeAmt>
+                    <periodAmt>23.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>23.00</actualAmt>
+                    <changeAmt>23.00</changeAmt>
+                    <periodAmt>23.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoMEDDomainCoverage>
+            <PAutoMEDPLCoverage state="Created"/>
+            <PAutoPDDomainCoverage state="Created"/>
+            <PAutoUMBIDomainCoverage state="Created"/>
+            <PAutoUMCSLDomainCoverage state="Created">
+                <limitAmount>75000</limitAmount>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>153.00</actualAmt>
+                    <changeAmt>153.00</changeAmt>
+                    <periodAmt>153.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>153.00</actualAmt>
+                    <changeAmt>153.00</changeAmt>
+                    <periodAmt>153.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>153.00</actualAmt>
+                    <changeAmt>153.00</changeAmt>
+                    <periodAmt>153.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoUMCSLDomainCoverage>
+            <PAutoUMPDDomainCoverage state="Created"/>
+            <VehicleRatingInfo state="Created">
+                <collSymbol>54</collSymbol>
+                <collSymbolRef>54</collSymbolRef>
+                <compSymbol>49</compSymbol>
+                <compSymbolRef>49</compSymbolRef>
+                <distanceOneWay>0</distanceOneWay>
+                <effectivedt>2017-10-28T00:00:00.000</effectivedt>
+                <fromBlueBookInd>true</fromBlueBookInd>
+                <inspected>false</inspected>
+                <isVehRegularUse>true</isVehRegularUse>
+                <liabilitySymbol>290</liabilitySymbol>
+                <numDaysDrivenPerWeek>0</numDaysDrivenPerWeek>
+                <pipMedSymbol>490</pipMedSymbol>
+                <registrationStateCd>GA</registrationStateCd>
+                <vehicleUsageCd>PLEASURE</vehicleUsageCd>
+            </VehicleRatingInfo>
+            <PremiumEntry premiumCd="NWT">
+                <actualAmt>1494.00</actualAmt>
+                <changeAmt>1494</changeAmt>
+                <periodAmt>1494</periodAmt>
+                <premiumType>NET_PREMIUM</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="TOTAL_FEE">
+                <actualAmt>0.00</actualAmt>
+                <changeAmt>0.00</changeAmt>
+                <periodAmt>0.00</periodAmt>
+                <premiumType>SPECIAL</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="GWT">
+                <actualAmt>1494.00</actualAmt>
+                <changeAmt>1494.00</changeAmt>
+                <periodAmt>1494.00</periodAmt>
+                <premiumType>GROSS_PREMIUM</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="RAW">
+                <actualAmt>1494.00</actualAmt>
+                <changeAmt>1494.00</changeAmt>
+                <periodAmt>1494.00</periodAmt>
+                <premiumType>BASE_PREMIUM</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="CMS">
+                <actualAmt>0.00</actualAmt>
+                <changeAmt>0.00</changeAmt>
+                <periodAmt>0.00</periodAmt>
+                <premiumType>COMMISSIONS</premiumType>
+            </PremiumEntry>
+            <ChartisExtInterfacesReport>
+                <documentName>CARFAX 2013 LAND ROVER SALVR2BG1DH843626 07/29/17-2017-07-29-05-36-23</documentName>
+                <reportReceivedDate>2017-07-29T05:36:23.000</reportReceivedDate>
+                <reportStage>SAVED</reportStage>
+                <reportType>CARFAX</reportType>
+                <sendingTime>2017-07-29T05:36:23.000</sendingTime>
+                <statusMessage>Received</statusMessage>
+                <success>true</success>
+            </ChartisExtInterfacesReport>
+        </Vehicle>
+        <Vehicle oid="2" state="Created">
+            <agreedValue>29240</agreedValue>
+            <annualMilesOvrd>false</annualMilesOvrd>
+            <avrgAnnualMiles>10000</avrgAnnualMiles>
+            <classCode>EXSF0000N</classCode>
+            <convoldVehicleNumber>002</convoldVehicleNumber>
+            <ctyTaxMintAmt>0.0000</ctyTaxMintAmt>
+            <ctyTaxPercAmt>0.0000</ctyTaxPercAmt>
+            <engineSize>0</engineSize>
+            <fullGlass>BOTH</fullGlass>
+            <greyMarket>true</greyMarket>
+            <height>077.6</height>
+            <isMedPayEffect>false</isMedPayEffect>
+            <liability>true</liability>
+            <manufacturer>RAM</manufacturer>
+            <marketValue>29240</marketValue>
+            <model>PICKUP</model>
+            <modelYear>2016</modelYear>
+            <ovrdFirstPotDamage>false</ovrdFirstPotDamage>
+            <ovrdTitleTransNo>false</ovrdTitleTransNo>
+            <printIDcards>true</printIDcards>
+            <vehBodyTypeCd>PKP4X44D</vehBodyTypeCd>
+            <vehExtendedNonOwnerVeh>false</vehExtendedNonOwnerVeh>
+            <vehIdentificationNo>3C6&amp;R5J2&amp;G</vehIdentificationNo>
+            <vehTypeCd>REGULAR</vehTypeCd>
+            <verifiedFirstPotDamage>false</verifiedFirstPotDamage>
+            <CashSettlementCoverage state="Created">
+                <cashSettlement>false</cashSettlement>
+            </CashSettlementCoverage>
+            <ChartisPAutoVehicleCredits state="Created">
+                <antiLockBrakeCd>ALBS</antiLockBrakeCd>
+                <applyMultiCarDiscountInd>false</applyMultiCarDiscountInd>
+                <autoBrake>false</autoBrake>
+                <blindSpotMonitor>false</blindSpotMonitor>
+                <dayLights>false</dayLights>
+                <driverAlertSys>false</driverAlertSys>
+                <guardGatedCom>false</guardGatedCom>
+                <hybrid>true</hybrid>
+                <hybridOrElectric>false</hybridOrElectric>
+                <laneDepartMonitor>false</laneDepartMonitor>
+                <overrideMultiCarDiscountInd>false</overrideMultiCarDiscountInd>
+                <passiveRestraints>1</passiveRestraints>
+                <securityOptionsCd>1</securityOptionsCd>
+            </ChartisPAutoVehicleCredits>
+            <ChartisPAutoVehicleOwnership state="Created">
+                <additionalOwnersInd>false</additionalOwnersInd>
+                <addressLine1>1 Main Street</addressLine1>
+                <city>Atlanta</city>
+                <country>US</country>
+                <financedInd>false</financedInd>
+                <firstName>GEORGIA</firstName>
+                <lastName>SMITH</lastName>
+                <location>Other</location>
+                <ownedInd>true</ownedInd>
+                <ownerType>INDIVIDUAL</ownerType>
+                <regOwner>1</regOwner>
+                <regOwnerOther>1</regOwnerOther>
+                <stateProvCd>GA</stateProvCd>
+                <zipCode>30303</zipCode>
+            </ChartisPAutoVehicleOwnership>
+            <GaragingAddress state="Created">
+                <addressLine1>1 Main Street</addressLine1>
+                <city>Atlanta</city>
+                <city2>Atlanta</city2>
+                <countryCd>US</countryCd>
+                <garaged>true</garaged>
+                <garagedSecondary>false</garagedSecondary>
+                <garagingLocation>OTHER</garagingLocation>
+                <postalCode>30303</postalCode>
+                <ratingTerritory>201</ratingTerritory>
+                <regionCd>1</regionCd>
+                <stateProvCd>GA</stateProvCd>
+                <storedInMasonry>false</storedInMasonry>
+            </GaragingAddress>
+            <PAutoACCDEATHDomainCoverage state="Created"/>
+            <PAutoBIDomainCoverage state="Created"/>
+            <PAutoCOLLCoverage state="Created">
+                <deductibleAmount>500.00</deductibleAmount>
+            </PAutoCOLLCoverage>
+            <PAutoCOLLDomainCoverage state="Created">
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>619.00</actualAmt>
+                    <changeAmt>619.00</changeAmt>
+                    <periodAmt>619.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>619.00</actualAmt>
+                    <changeAmt>619.00</changeAmt>
+                    <periodAmt>619.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>619.00</actualAmt>
+                    <changeAmt>619.00</changeAmt>
+                    <periodAmt>619.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoCOLLDomainCoverage>
+            <PAutoCOMPCoverage state="Created">
+                <deductibleAmount>500.00</deductibleAmount>
+            </PAutoCOMPCoverage>
+            <PAutoCOMPDomainCoverage state="Created">
+                <deductibleAmount>500</deductibleAmount>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>128.00</actualAmt>
+                    <changeAmt>128.00</changeAmt>
+                    <periodAmt>128.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>128.00</actualAmt>
+                    <changeAmt>128.00</changeAmt>
+                    <periodAmt>128.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>128.00</actualAmt>
+                    <changeAmt>128.00</changeAmt>
+                    <periodAmt>128.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoCOMPDomainCoverage>
+            <PAutoCPDomainCoverage state="Created">
+                <limitAmount>0</limitAmount>
+            </PAutoCPDomainCoverage>
+            <PAutoCSLDomainCoverage state="Created">
+                <limitAmount>75000</limitAmount>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>179.00</actualAmt>
+                    <changeAmt>179.00</changeAmt>
+                    <periodAmt>179.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>179.00</actualAmt>
+                    <changeAmt>179.00</changeAmt>
+                    <periodAmt>179.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>179.00</actualAmt>
+                    <changeAmt>179.00</changeAmt>
+                    <periodAmt>179.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoCSLDomainCoverage>
+            <PAutoMEDDomainCoverage state="Created">
+                <limitAmount>2000</limitAmount>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>23.00</actualAmt>
+                    <changeAmt>23.00</changeAmt>
+                    <periodAmt>23.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>23.00</actualAmt>
+                    <changeAmt>23.00</changeAmt>
+                    <periodAmt>23.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>23.00</actualAmt>
+                    <changeAmt>23.00</changeAmt>
+                    <periodAmt>23.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoMEDDomainCoverage>
+            <PAutoMEDPLCoverage state="Created"/>
+            <PAutoPDDomainCoverage state="Created"/>
+            <PAutoUMBIDomainCoverage state="Created"/>
+            <PAutoUMCSLDomainCoverage state="Created">
+                <limitAmount>75000</limitAmount>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>145.00</actualAmt>
+                    <changeAmt>145.00</changeAmt>
+                    <periodAmt>145.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>145.00</actualAmt>
+                    <changeAmt>145.00</changeAmt>
+                    <periodAmt>145.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>145.00</actualAmt>
+                    <changeAmt>145.00</changeAmt>
+                    <periodAmt>145.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoUMCSLDomainCoverage>
+            <PAutoUMPDDomainCoverage state="Created"/>
+            <VehicleRatingInfo state="Created">
+                <collSymbol>34</collSymbol>
+                <collSymbolRef>34</collSymbolRef>
+                <compSymbol>42</compSymbol>
+                <compSymbolRef>42</compSymbolRef>
+                <distanceOneWay>0</distanceOneWay>
+                <effectivedt>2017-10-28T00:00:00.000</effectivedt>
+                <fromBlueBookInd>true</fromBlueBookInd>
+                <inspected>false</inspected>
+                <isVehRegularUse>true</isVehRegularUse>
+                <liabilitySymbol>N/A</liabilitySymbol>
+                <numDaysDrivenPerWeek>0</numDaysDrivenPerWeek>
+                <pipMedSymbol>N/A</pipMedSymbol>
+                <registrationStateCd>GA</registrationStateCd>
+                <vehicleUsageCd>PLEASURE</vehicleUsageCd>
+            </VehicleRatingInfo>
+            <PremiumEntry premiumCd="NWT">
+                <actualAmt>1094.00</actualAmt>
+                <changeAmt>1094</changeAmt>
+                <periodAmt>1094</periodAmt>
+                <premiumType>NET_PREMIUM</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="GWT">
+                <actualAmt>1094.00</actualAmt>
+                <changeAmt>1094.00</changeAmt>
+                <periodAmt>1094.00</periodAmt>
+                <premiumType>GROSS_PREMIUM</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="CMS">
+                <actualAmt>0.00</actualAmt>
+                <changeAmt>0.00</changeAmt>
+                <periodAmt>0.00</periodAmt>
+                <premiumType>COMMISSIONS</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="TOTAL_FEE">
+                <actualAmt>0.00</actualAmt>
+                <changeAmt>0.00</changeAmt>
+                <periodAmt>0.00</periodAmt>
+                <premiumType>SPECIAL</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="RAW">
+                <actualAmt>1094.00</actualAmt>
+                <changeAmt>1094.00</changeAmt>
+                <periodAmt>1094.00</periodAmt>
+                <premiumType>BASE_PREMIUM</premiumType>
+            </PremiumEntry>
+        </Vehicle>
+        <Vehicle oid="3" state="Created">
+            <abiCd>86618</abiCd>
+            <agreedValue>23700</agreedValue>
+            <annualMilesOvrd>false</annualMilesOvrd>
+            <avrgAnnualMiles>10000</avrgAnnualMiles>
+            <classCode>EXSF0000N</classCode>
+            <convoldVehicleNumber>003</convoldVehicleNumber>
+            <ctyTaxMintAmt>0.0000</ctyTaxMintAmt>
+            <ctyTaxPercAmt>0.0000</ctyTaxPercAmt>
+            <engineSize>0</engineSize>
+            <fullGlass>BOTH</fullGlass>
+            <greyMarket>true</greyMarket>
+            <height>058.1</height>
+            <isMedPayEffect>false</isMedPayEffect>
+            <liability>true</liability>
+            <manufacturer>NISS</manufacturer>
+            <marketValue>23700</marketValue>
+            <model>ALTIMA</model>
+            <modelYear>2016</modelYear>
+            <ovrdFirstPotDamage>false</ovrdFirstPotDamage>
+            <ovrdTitleTransNo>false</ovrdTitleTransNo>
+            <printIDcards>true</printIDcards>
+            <vehBodyTypeCd>Sedan 4D S</vehBodyTypeCd>
+            <vehExtendedNonOwnerVeh>false</vehExtendedNonOwnerVeh>
+            <vehIdentificationNo>1N4BL3AP&amp;G</vehIdentificationNo>
+            <vehTypeCd>REGULAR</vehTypeCd>
+            <verifiedFirstPotDamage>false</verifiedFirstPotDamage>
+            <vinStyle>86618</vinStyle>
+            <CashSettlementCoverage state="Created">
+                <cashSettlement>false</cashSettlement>
+            </CashSettlementCoverage>
+            <ChartisPAutoVehicleCredits state="Created">
+                <antiLockBrakeCd>ALBS</antiLockBrakeCd>
+                <applyMultiCarDiscountInd>false</applyMultiCarDiscountInd>
+                <autoBrake>false</autoBrake>
+                <blindSpotMonitor>false</blindSpotMonitor>
+                <dayLights>false</dayLights>
+                <driverAlertSys>false</driverAlertSys>
+                <guardGatedCom>false</guardGatedCom>
+                <hybrid>false</hybrid>
+                <hybridOrElectric>false</hybridOrElectric>
+                <laneDepartMonitor>false</laneDepartMonitor>
+                <overrideMultiCarDiscountInd>false</overrideMultiCarDiscountInd>
+                <passiveRestraints>1</passiveRestraints>
+                <securityOptionsCd>1</securityOptionsCd>
+            </ChartisPAutoVehicleCredits>
+            <ChartisPAutoVehicleOwnership state="Created">
+                <additionalOwnersInd>false</additionalOwnersInd>
+                <addressLine1>1 Main Street</addressLine1>
+                <city>Atlanta</city>
+                <country>US</country>
+                <financedInd>false</financedInd>
+                <firstName>GEORGIA</firstName>
+                <lastName>SMITH</lastName>
+                <location>Other</location>
+                <ownedInd>true</ownedInd>
+                <ownerType>INDIVIDUAL</ownerType>
+                <regOwner>1</regOwner>
+                <regOwnerOther>1</regOwnerOther>
+                <stateProvCd>GA</stateProvCd>
+                <zipCode>30303</zipCode>
+            </ChartisPAutoVehicleOwnership>
+            <GaragingAddress state="Created">
+                <addressLine1>1 Main Street</addressLine1>
+                <city>Atlanta</city>
+                <city2>Atlanta</city2>
+                <countryCd>US</countryCd>
+                <garaged>true</garaged>
+                <garagedSecondary>false</garagedSecondary>
+                <garagingLocation>OTHER</garagingLocation>
+                <postalCode>30303</postalCode>
+                <ratingTerritory>201</ratingTerritory>
+                <regionCd>1</regionCd>
+                <stateProvCd>GA</stateProvCd>
+                <storedInMasonry>false</storedInMasonry>
+            </GaragingAddress>
+            <PAutoACCDEATHDomainCoverage state="Created"/>
+            <PAutoBIDomainCoverage state="Created"/>
+            <PAutoCOLLCoverage state="Created">
+                <deductibleAmount>1000.00</deductibleAmount>
+            </PAutoCOLLCoverage>
+            <PAutoCOLLDomainCoverage state="Created">
+                <deductibleAmount>1000</deductibleAmount>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>500.00</actualAmt>
+                    <changeAmt>500.00</changeAmt>
+                    <periodAmt>500.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>500.00</actualAmt>
+                    <changeAmt>500.00</changeAmt>
+                    <periodAmt>500.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>500.00</actualAmt>
+                    <changeAmt>500.00</changeAmt>
+                    <periodAmt>500.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoCOLLDomainCoverage>
+            <PAutoCOMPCoverage state="Created">
+                <deductibleAmount>1000.00</deductibleAmount>
+            </PAutoCOMPCoverage>
+            <PAutoCOMPDomainCoverage state="Created">
+                <deductibleAmount>1000</deductibleAmount>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>228.00</actualAmt>
+                    <changeAmt>228.00</changeAmt>
+                    <periodAmt>228.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>228.00</actualAmt>
+                    <changeAmt>228.00</changeAmt>
+                    <periodAmt>228.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>228.00</actualAmt>
+                    <changeAmt>228.00</changeAmt>
+                    <periodAmt>228.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoCOMPDomainCoverage>
+            <PAutoCPDomainCoverage state="Created">
+                <limitAmount>0</limitAmount>
+            </PAutoCPDomainCoverage>
+            <PAutoCSLDomainCoverage state="Created">
+                <limitAmount>75000</limitAmount>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>188.00</actualAmt>
+                    <changeAmt>188.00</changeAmt>
+                    <periodAmt>188.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>188.00</actualAmt>
+                    <changeAmt>188.00</changeAmt>
+                    <periodAmt>188.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>188.00</actualAmt>
+                    <changeAmt>188.00</changeAmt>
+                    <periodAmt>188.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoCSLDomainCoverage>
+            <PAutoMEDDomainCoverage state="Created">
+                <limitAmount>2000</limitAmount>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>24.00</actualAmt>
+                    <changeAmt>24.00</changeAmt>
+                    <periodAmt>24.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>24.00</actualAmt>
+                    <changeAmt>24.00</changeAmt>
+                    <periodAmt>24.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>24.00</actualAmt>
+                    <changeAmt>24.00</changeAmt>
+                    <periodAmt>24.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoMEDDomainCoverage>
+            <PAutoMEDPLCoverage state="Created"/>
+            <PAutoPDDomainCoverage state="Created"/>
+            <PAutoUMBIDomainCoverage state="Created"/>
+            <PAutoUMCSLDomainCoverage state="Created">
+                <limitAmount>75000</limitAmount>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>153.00</actualAmt>
+                    <changeAmt>153.00</changeAmt>
+                    <periodAmt>153.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>153.00</actualAmt>
+                    <changeAmt>153.00</changeAmt>
+                    <periodAmt>153.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>153.00</actualAmt>
+                    <changeAmt>153.00</changeAmt>
+                    <periodAmt>153.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoUMCSLDomainCoverage>
+            <PAutoUMPDDomainCoverage state="Created"/>
+            <VehicleRatingInfo state="Created">
+                <collSymbol>40</collSymbol>
+                <collSymbolRef>40</collSymbolRef>
+                <compSymbol>39</compSymbol>
+                <compSymbolRef>39</compSymbolRef>
+                <distanceOneWay>0</distanceOneWay>
+                <effectivedt>2017-10-28T00:00:00.000</effectivedt>
+                <fromBlueBookInd>true</fromBlueBookInd>
+                <inspected>false</inspected>
+                <isVehRegularUse>true</isVehRegularUse>
+                <liabilitySymbol>N/A</liabilitySymbol>
+                <numDaysDrivenPerWeek>0</numDaysDrivenPerWeek>
+                <pipMedSymbol>N/A</pipMedSymbol>
+                <registrationStateCd>GA</registrationStateCd>
+                <vehicleUsageCd>PLEASURE</vehicleUsageCd>
+            </VehicleRatingInfo>
+            <PremiumEntry premiumCd="NWT">
+                <actualAmt>1093.00</actualAmt>
+                <changeAmt>1093</changeAmt>
+                <periodAmt>1093</periodAmt>
+                <premiumType>NET_PREMIUM</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="TOTAL_FEE">
+                <actualAmt>0.00</actualAmt>
+                <changeAmt>0.00</changeAmt>
+                <periodAmt>0.00</periodAmt>
+                <premiumType>SPECIAL</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="GWT">
+                <actualAmt>1093.00</actualAmt>
+                <changeAmt>1093.00</changeAmt>
+                <periodAmt>1093.00</periodAmt>
+                <premiumType>GROSS_PREMIUM</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="RAW">
+                <actualAmt>1093.00</actualAmt>
+                <changeAmt>1093.00</changeAmt>
+                <periodAmt>1093.00</periodAmt>
+                <premiumType>BASE_PREMIUM</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="CMS">
+                <actualAmt>0.00</actualAmt>
+                <changeAmt>0.00</changeAmt>
+                <periodAmt>0.00</periodAmt>
+                <premiumType>COMMISSIONS</premiumType>
+            </PremiumEntry>
+        </Vehicle>
+        <Vehicle oid="4" state="Created">
+            <abiCd>84481</abiCd>
+            <agreedValue>43040</agreedValue>
+            <annualMilesOvrd>false</annualMilesOvrd>
+            <avrgAnnualMiles>10000</avrgAnnualMiles>
+            <classCode>EXSF0000N</classCode>
+            <convoldVehicleNumber>004</convoldVehicleNumber>
+            <ctyTaxMintAmt>0.0000</ctyTaxMintAmt>
+            <ctyTaxPercAmt>0.0000</ctyTaxPercAmt>
+            <engineSize>0</engineSize>
+            <fullGlass>BOTH</fullGlass>
+            <greyMarket>true</greyMarket>
+            <height>050.8</height>
+            <isMedPayEffect>false</isMedPayEffect>
+            <liability>true</liability>
+            <manufacturer>BMW</manufacturer>
+            <marketValue>43040</marketValue>
+            <model>Z4</model>
+            <modelYear>2016</modelYear>
+            <ovrdFirstPotDamage>false</ovrdFirstPotDamage>
+            <ovrdTitleTransNo>false</ovrdTitleTransNo>
+            <printIDcards>true</printIDcards>
+            <vehBodyTypeCd>Roadster 2</vehBodyTypeCd>
+            <vehExtendedNonOwnerVeh>false</vehExtendedNonOwnerVeh>
+            <vehIdentificationNo>WBALL5C5&amp;G</vehIdentificationNo>
+            <vehTypeCd>REGULAR</vehTypeCd>
+            <verifiedFirstPotDamage>false</verifiedFirstPotDamage>
+            <vinStyle>84481</vinStyle>
+            <CashSettlementCoverage state="Created">
+                <cashSettlement>false</cashSettlement>
+            </CashSettlementCoverage>
+            <ChartisPAutoVehicleCredits state="Created">
+                <antiLockBrakeCd>ALBS</antiLockBrakeCd>
+                <applyMultiCarDiscountInd>false</applyMultiCarDiscountInd>
+                <autoBrake>false</autoBrake>
+                <blindSpotMonitor>false</blindSpotMonitor>
+                <dayLights>false</dayLights>
+                <driverAlertSys>false</driverAlertSys>
+                <guardGatedCom>false</guardGatedCom>
+                <hybrid>false</hybrid>
+                <hybridOrElectric>false</hybridOrElectric>
+                <laneDepartMonitor>false</laneDepartMonitor>
+                <overrideMultiCarDiscountInd>false</overrideMultiCarDiscountInd>
+                <passiveRestraints>1</passiveRestraints>
+                <securityOptionsCd>1</securityOptionsCd>
+            </ChartisPAutoVehicleCredits>
+            <ChartisPAutoVehicleOwnership state="Created">
+                <additionalOwnersInd>false</additionalOwnersInd>
+                <addressLine1>1 Main Street</addressLine1>
+                <city>Atlanta</city>
+                <country>US</country>
+                <financedInd>false</financedInd>
+                <firstName>GEORGIA</firstName>
+                <lastName>SMITH</lastName>
+                <location>Other</location>
+                <ownedInd>true</ownedInd>
+                <ownerType>INDIVIDUAL</ownerType>
+                <regOwner>1</regOwner>
+                <regOwnerOther>1</regOwnerOther>
+                <stateProvCd>GA</stateProvCd>
+                <zipCode>30303</zipCode>
+            </ChartisPAutoVehicleOwnership>
+            <GaragingAddress state="Created">
+                <addressLine1>1 Main Street</addressLine1>
+                <city>Atlanta</city>
+                <city2>Atlanta</city2>
+                <countryCd>US</countryCd>
+                <garaged>true</garaged>
+                <garagedSecondary>false</garagedSecondary>
+                <garagingLocation>OTHER</garagingLocation>
+                <postalCode>30303</postalCode>
+                <ratingTerritory>201</ratingTerritory>
+                <regionCd>1</regionCd>
+                <stateProvCd>GA</stateProvCd>
+                <storedInMasonry>false</storedInMasonry>
+            </GaragingAddress>
+            <PAutoACCDEATHDomainCoverage state="Created"/>
+            <PAutoBIDomainCoverage state="Created"/>
+            <PAutoCOLLCoverage state="Created">
+                <deductibleAmount>1000.00</deductibleAmount>
+            </PAutoCOLLCoverage>
+            <PAutoCOLLDomainCoverage state="Created">
+                <deductibleAmount>1000</deductibleAmount>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>635.00</actualAmt>
+                    <changeAmt>635.00</changeAmt>
+                    <periodAmt>635.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>635.00</actualAmt>
+                    <changeAmt>635.00</changeAmt>
+                    <periodAmt>635.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>635.00</actualAmt>
+                    <changeAmt>635.00</changeAmt>
+                    <periodAmt>635.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoCOLLDomainCoverage>
+            <PAutoCOMPCoverage state="Created">
+                <deductibleAmount>1000.00</deductibleAmount>
+            </PAutoCOMPCoverage>
+            <PAutoCOMPDomainCoverage state="Created">
+                <deductibleAmount>1000</deductibleAmount>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>420.00</actualAmt>
+                    <changeAmt>420.00</changeAmt>
+                    <periodAmt>420.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>420.00</actualAmt>
+                    <changeAmt>420.00</changeAmt>
+                    <periodAmt>420.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>420.00</actualAmt>
+                    <changeAmt>420.00</changeAmt>
+                    <periodAmt>420.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoCOMPDomainCoverage>
+            <PAutoCPDomainCoverage state="Created">
+                <limitAmount>0</limitAmount>
+            </PAutoCPDomainCoverage>
+            <PAutoCSLDomainCoverage state="Created">
+                <limitAmount>75000</limitAmount>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>188.00</actualAmt>
+                    <changeAmt>188.00</changeAmt>
+                    <periodAmt>188.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>188.00</actualAmt>
+                    <changeAmt>188.00</changeAmt>
+                    <periodAmt>188.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>188.00</actualAmt>
+                    <changeAmt>188.00</changeAmt>
+                    <periodAmt>188.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoCSLDomainCoverage>
+            <PAutoMEDDomainCoverage state="Created">
+                <limitAmount>2000</limitAmount>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>24.00</actualAmt>
+                    <changeAmt>24.00</changeAmt>
+                    <periodAmt>24.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>24.00</actualAmt>
+                    <changeAmt>24.00</changeAmt>
+                    <periodAmt>24.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>24.00</actualAmt>
+                    <changeAmt>24.00</changeAmt>
+                    <periodAmt>24.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoMEDDomainCoverage>
+            <PAutoMEDPLCoverage state="Created"/>
+            <PAutoPDDomainCoverage state="Created"/>
+            <PAutoUMBIDomainCoverage state="Created"/>
+            <PAutoUMCSLDomainCoverage state="Created">
+                <limitAmount>75000</limitAmount>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>153.00</actualAmt>
+                    <changeAmt>153.00</changeAmt>
+                    <periodAmt>153.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>153.00</actualAmt>
+                    <changeAmt>153.00</changeAmt>
+                    <periodAmt>153.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>153.00</actualAmt>
+                    <changeAmt>153.00</changeAmt>
+                    <periodAmt>153.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoUMCSLDomainCoverage>
+            <PAutoUMPDDomainCoverage state="Created"/>
+            <VehicleRatingInfo state="Created">
+                <collSymbol>47</collSymbol>
+                <collSymbolRef>47</collSymbolRef>
+                <compSymbol>39</compSymbol>
+                <compSymbolRef>39</compSymbolRef>
+                <distanceOneWay>0</distanceOneWay>
+                <effectivedt>2017-10-28T00:00:00.000</effectivedt>
+                <fromBlueBookInd>true</fromBlueBookInd>
+                <inspected>false</inspected>
+                <isVehRegularUse>true</isVehRegularUse>
+                <liabilitySymbol>N/A</liabilitySymbol>
+                <numDaysDrivenPerWeek>0</numDaysDrivenPerWeek>
+                <pipMedSymbol>N/A</pipMedSymbol>
+                <registrationStateCd>GA</registrationStateCd>
+                <vehicleUsageCd>PLEASURE</vehicleUsageCd>
+            </VehicleRatingInfo>
+            <PremiumEntry premiumCd="NWT">
+                <actualAmt>1420.00</actualAmt>
+                <changeAmt>1420</changeAmt>
+                <periodAmt>1420</periodAmt>
+                <premiumType>NET_PREMIUM</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="TOTAL_FEE">
+                <actualAmt>0.00</actualAmt>
+                <changeAmt>0.00</changeAmt>
+                <periodAmt>0.00</periodAmt>
+                <premiumType>SPECIAL</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="GWT">
+                <actualAmt>1420.00</actualAmt>
+                <changeAmt>1420.00</changeAmt>
+                <periodAmt>1420.00</periodAmt>
+                <premiumType>GROSS_PREMIUM</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="RAW">
+                <actualAmt>1420.00</actualAmt>
+                <changeAmt>1420.00</changeAmt>
+                <periodAmt>1420.00</periodAmt>
+                <premiumType>BASE_PREMIUM</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="CMS">
+                <actualAmt>0.00</actualAmt>
+                <changeAmt>0.00</changeAmt>
+                <periodAmt>0.00</periodAmt>
+                <premiumType>COMMISSIONS</premiumType>
+            </PremiumEntry>
+        </Vehicle>
+        <Vehicle oid="5" state="Created">
+            <agreedValue>44720</agreedValue>
+            <annualMilesOvrd>false</annualMilesOvrd>
+            <avrgAnnualMiles>10000</avrgAnnualMiles>
+            <classCode>EXSF0000N</classCode>
+            <convoldVehicleNumber>005</convoldVehicleNumber>
+            <ctyTaxMintAmt>0.0000</ctyTaxMintAmt>
+            <ctyTaxPercAmt>0.0000</ctyTaxPercAmt>
+            <engineSize>0</engineSize>
+            <fullGlass>BOTH</fullGlass>
+            <greyMarket>true</greyMarket>
+            <height>077.7</height>
+            <isMedPayEffect>false</isMedPayEffect>
+            <liability>true</liability>
+            <manufacturer>FORD</manufacturer>
+            <marketValue>44720</marketValue>
+            <model>EXPEDITION</model>
+            <modelYear>2017</modelYear>
+            <ovrdFirstPotDamage>false</ovrdFirstPotDamage>
+            <ovrdTitleTransNo>false</ovrdTitleTransNo>
+            <printIDcards>true</printIDcards>
+            <vehBodyTypeCd>UTL4X24D</vehBodyTypeCd>
+            <vehExtendedNonOwnerVeh>false</vehExtendedNonOwnerVeh>
+            <vehIdentificationNo>1FM&amp;K1HT&amp;H</vehIdentificationNo>
+            <vehTypeCd>REGULAR</vehTypeCd>
+            <verifiedFirstPotDamage>false</verifiedFirstPotDamage>
+            <CashSettlementCoverage state="Created">
+                <cashSettlement>false</cashSettlement>
+            </CashSettlementCoverage>
+            <ChartisPAutoVehicleCredits state="Created">
+                <antiLockBrakeCd>ALBS</antiLockBrakeCd>
+                <applyMultiCarDiscountInd>false</applyMultiCarDiscountInd>
+                <autoBrake>false</autoBrake>
+                <blindSpotMonitor>false</blindSpotMonitor>
+                <dayLights>false</dayLights>
+                <driverAlertSys>false</driverAlertSys>
+                <guardGatedCom>false</guardGatedCom>
+                <hybrid>false</hybrid>
+                <hybridOrElectric>false</hybridOrElectric>
+                <laneDepartMonitor>false</laneDepartMonitor>
+                <overrideMultiCarDiscountInd>false</overrideMultiCarDiscountInd>
+                <passiveRestraints>1</passiveRestraints>
+                <securityOptionsCd>1</securityOptionsCd>
+            </ChartisPAutoVehicleCredits>
+            <ChartisPAutoVehicleOwnership state="Created">
+                <additionalOwnersInd>false</additionalOwnersInd>
+                <addressLine1>1 Main Street</addressLine1>
+                <city>Atlanta</city>
+                <country>US</country>
+                <financedInd>false</financedInd>
+                <firstName>GEORGIA</firstName>
+                <lastName>SMITH</lastName>
+                <location>Other</location>
+                <ownedInd>true</ownedInd>
+                <ownerType>INDIVIDUAL</ownerType>
+                <regOwner>1</regOwner>
+                <regOwnerOther>1</regOwnerOther>
+                <stateProvCd>GA</stateProvCd>
+                <zipCode>30303</zipCode>
+            </ChartisPAutoVehicleOwnership>
+            <GaragingAddress state="Created">
+                <addressLine1>1 Main Street</addressLine1>
+                <city>Atlanta</city>
+                <city2>Atlanta</city2>
+                <countryCd>US</countryCd>
+                <garaged>true</garaged>
+                <garagedSecondary>false</garagedSecondary>
+                <garagingLocation>OTHER</garagingLocation>
+                <postalCode>30303</postalCode>
+                <ratingTerritory>201</ratingTerritory>
+                <regionCd>1</regionCd>
+                <stateProvCd>GA</stateProvCd>
+                <storedInMasonry>false</storedInMasonry>
+            </GaragingAddress>
+            <PAutoACCDEATHDomainCoverage state="Created"/>
+            <PAutoBIDomainCoverage state="Created"/>
+            <PAutoCOLLCoverage state="Created">
+                <deductibleAmount>1000.00</deductibleAmount>
+            </PAutoCOLLCoverage>
+            <PAutoCOLLDomainCoverage state="Created">
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>594.00</actualAmt>
+                    <changeAmt>594.00</changeAmt>
+                    <periodAmt>594.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>594.00</actualAmt>
+                    <changeAmt>594.00</changeAmt>
+                    <periodAmt>594.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>594.00</actualAmt>
+                    <changeAmt>594.00</changeAmt>
+                    <periodAmt>594.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoCOLLDomainCoverage>
+            <PAutoCOMPCoverage state="Created">
+                <deductibleAmount>1000.00</deductibleAmount>
+            </PAutoCOMPCoverage>
+            <PAutoCOMPDomainCoverage state="Created">
+                <deductibleAmount>1000</deductibleAmount>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>146.00</actualAmt>
+                    <changeAmt>146.00</changeAmt>
+                    <periodAmt>146.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>146.00</actualAmt>
+                    <changeAmt>146.00</changeAmt>
+                    <periodAmt>146.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>146.00</actualAmt>
+                    <changeAmt>146.00</changeAmt>
+                    <periodAmt>146.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoCOMPDomainCoverage>
+            <PAutoCPDomainCoverage state="Created">
+                <limitAmount>0</limitAmount>
+            </PAutoCPDomainCoverage>
+            <PAutoCSLDomainCoverage state="Created">
+                <limitAmount>75000</limitAmount>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>188.00</actualAmt>
+                    <changeAmt>188.00</changeAmt>
+                    <periodAmt>188.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>188.00</actualAmt>
+                    <changeAmt>188.00</changeAmt>
+                    <periodAmt>188.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>188.00</actualAmt>
+                    <changeAmt>188.00</changeAmt>
+                    <periodAmt>188.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoCSLDomainCoverage>
+            <PAutoMEDDomainCoverage state="Created">
+                <limitAmount>2000</limitAmount>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>24.00</actualAmt>
+                    <changeAmt>24.00</changeAmt>
+                    <periodAmt>24.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>24.00</actualAmt>
+                    <changeAmt>24.00</changeAmt>
+                    <periodAmt>24.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>24.00</actualAmt>
+                    <changeAmt>24.00</changeAmt>
+                    <periodAmt>24.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoMEDDomainCoverage>
+            <PAutoMEDPLCoverage state="Created"/>
+            <PAutoPDDomainCoverage state="Created"/>
+            <PAutoUMBIDomainCoverage state="Created"/>
+            <PAutoUMCSLDomainCoverage state="Created">
+                <limitAmount>75000</limitAmount>
+                <PremiumEntry premiumCd="NWT">
+                    <actualAmt>153.00</actualAmt>
+                    <changeAmt>153.00</changeAmt>
+                    <periodAmt>153.00</periodAmt>
+                    <premiumType>NET_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="RAW">
+                    <actualAmt>153.00</actualAmt>
+                    <changeAmt>153.00</changeAmt>
+                    <periodAmt>153.00</periodAmt>
+                    <premiumType>BASE_PREMIUM</premiumType>
+                </PremiumEntry>
+                <PremiumEntry premiumCd="GWT">
+                    <actualAmt>153.00</actualAmt>
+                    <changeAmt>153.00</changeAmt>
+                    <periodAmt>153.00</periodAmt>
+                    <premiumType>GROSS_PREMIUM</premiumType>
+                </PremiumEntry>
+            </PAutoUMCSLDomainCoverage>
+            <PAutoUMPDDomainCoverage state="Created"/>
+            <VehicleRatingInfo state="Created">
+                <collSymbol>23</collSymbol>
+                <collSymbolRef>23</collSymbolRef>
+                <compSymbol>26</compSymbol>
+                <compSymbolRef>26</compSymbolRef>
+                <distanceOneWay>0</distanceOneWay>
+                <effectivedt>2017-10-28T00:00:00.000</effectivedt>
+                <fromBlueBookInd>true</fromBlueBookInd>
+                <inspected>false</inspected>
+                <isVehRegularUse>true</isVehRegularUse>
+                <liabilitySymbol>N/A</liabilitySymbol>
+                <numDaysDrivenPerWeek>0</numDaysDrivenPerWeek>
+                <pipMedSymbol>N/A</pipMedSymbol>
+                <registrationStateCd>GA</registrationStateCd>
+                <vehicleUsageCd>PLEASURE</vehicleUsageCd>
+            </VehicleRatingInfo>
+            <PremiumEntry premiumCd="NWT">
+                <actualAmt>1105.00</actualAmt>
+                <changeAmt>1105</changeAmt>
+                <periodAmt>1105</periodAmt>
+                <premiumType>NET_PREMIUM</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="TOTAL_FEE">
+                <actualAmt>0.00</actualAmt>
+                <changeAmt>0.00</changeAmt>
+                <periodAmt>0.00</periodAmt>
+                <premiumType>SPECIAL</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="GWT">
+                <actualAmt>1105.00</actualAmt>
+                <changeAmt>1105.00</changeAmt>
+                <periodAmt>1105.00</periodAmt>
+                <premiumType>GROSS_PREMIUM</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="RAW">
+                <actualAmt>1105.00</actualAmt>
+                <changeAmt>1105.00</changeAmt>
+                <periodAmt>1105.00</periodAmt>
+                <premiumType>BASE_PREMIUM</premiumType>
+            </PremiumEntry>
+            <PremiumEntry premiumCd="CMS">
+                <actualAmt>0.00</actualAmt>
+                <changeAmt>0.00</changeAmt>
+                <periodAmt>0.00</periodAmt>
+                <premiumType>COMMISSIONS</premiumType>
+            </PremiumEntry>
+        </Vehicle>
+        <VehicleHomeAlterationVHACoverage state="Created">
+            <applicable>false</applicable>
+        </VehicleHomeAlterationVHACoverage>
+        <WorkLossWLC state="Created">
+            <applicable>false</applicable>
+        </WorkLossWLC>
+        <PremiumEntry premiumCd="GWT">
+            <actualAmt>6206.00</actualAmt>
+            <changeAmt>6206.00</changeAmt>
+            <periodAmt>6206.00</periodAmt>
+            <premiumType>GROSS_PREMIUM</premiumType>
+        </PremiumEntry>
+        <PremiumEntry premiumCd="NWT">
+            <actualAmt>6206.00</actualAmt>
+            <changeAmt>6206.00</changeAmt>
+            <periodAmt>6206.00</periodAmt>
+            <premiumType>NET_PREMIUM</premiumType>
+        </PremiumEntry>
+        <PremiumEntry premiumCd="TOTAL_FEE">
+            <actualAmt>0.00</actualAmt>
+            <changeAmt>0.00</changeAmt>
+            <periodAmt>0.00</periodAmt>
+            <premiumType>SPECIAL</premiumType>
+        </PremiumEntry>
+        <PremiumEntry premiumCd="CMS">
+            <actualAmt>1086.05</actualAmt>
+            <changeAmt>1086.05</changeAmt>
+            <periodAmt>1086.05</periodAmt>
+            <premiumType>COMMISSIONS</premiumType>
+        </PremiumEntry>
+        <ChartisTier>
+            <convPriorTier>5</convPriorTier>
+            <systemGeneratedTier>5</systemGeneratedTier>
+            <tierOverrideInd>false</tierOverrideInd>
+        </ChartisTier>
+        <CForm formCd="PCA-FCR"/>
+        <CForm formCd="78052"/>
+        <CForm formCd="AG-PCG"/>
+        <CForm formCd="PCA- ACK- UM- GA"/>
+        <CForm formCd="PCA-MP-GA"/>
+        <CForm formCd="PCA-PVS"/>
+        <CForm formCd="PCA-ARVDIS"/>
+        <CForm formCd="PCA-ACCD"/>
+        <CForm formCd="PCG-OFAC"/>
+        <CForm formCd="PCA-DEC2"/>
+        <CForm formCd="91222"/>
+        <CForm formCd="ID-GA"/>
+        <CForm formCd="PCA-FULLGL"/>
+        <CForm formCd="PCA-SUM-GA"/>
+        <CForm formCd="PCA-JKT-AIG CA3"/>
+        <CForm formCd="PCA-CSLUM-SEL-GA"/>
+        <CForm formCd="PCA-DEC"/>
+        <CForm formCd="PCA-SLL"/>
+        <CForm formCd="PCA-AMDPP-GA"/>
+        <CForm formCd="PCA-UM-Add On-GA"/>
+        <CForm formCd="PCA-PAP"/>
+        <DriverVehicleRelationship>
+            <driver oid="1"/>
+            <relationshipType>primary</relationshipType>
+            <seqNo>0</seqNo>
+            <vehicle oid="1"/>
+        </DriverVehicleRelationship>
+    </Policy>
+    <personalBillingAccount>
+        <billingInfo>
+            <billType>direct</billType>
+            <billingAccountName>Georgia Smith</billingAccountName>
+            <billingAddress>
+                <addressLine1>1 Main Street</addressLine1>
+                <city>Atlanta</city>
+                <countryCd>US</countryCd>
+                <postalCode>30303</postalCode>
+                <stateProvCd>GA</stateProvCd>
+            </billingAddress>
+            <billingNameInfo>
+                <firstName>Georgia</firstName>
+                <lastName>Smith</lastName>
+                <nameTypeCd>IND</nameTypeCd>
+            </billingNameInfo>
+            <currency>USD</currency>
+            <customerNumber>0005122846</customerNumber>
+            <dueDate>28</dueDate>
+            <monthlyDueDayConfig>
+                <monthDays>28</monthDays>
+            </monthlyDueDayConfig>
+            <producerCd>0050679</producerCd>
+            <deliveryMethod>usmail</deliveryMethod>
+            <originalPaymentPlanCd>4PayBiMonthly</originalPaymentPlanCd>
+            <paymentPlanCd>4PayBiMonthly</paymentPlanCd>
+            <recurringPayments>U</recurringPayments>
+        </billingInfo>
+        <accountNumber>0005122846106</accountNumber>
+        <enableRecurringPayments>false</enableRecurringPayments>
+    </personalBillingAccount>
+</Policies>

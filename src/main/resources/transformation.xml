@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <configuration>
+        <wildcard>false</wildcard>
+    </configuration>
+    <mapping>
+        <class-a>generated_1506187282094.Policy</class-a>
+        <class-b>generated_1506187282978.Policies</class-b>
+        <field>
+            <a>drivers.driver.birthDate</a>
+            <b>policy.driver.birthDate</b>
+        </field>
+        <field>
+            <a>drivers.driver.relationToApplicantDesc</a>
+            <b>policy.driver.driverRelToApplicantCd</b>
+        </field>
+        <field>
+            <a>drivers.driver.maritalStatusDesc</a>
+            <b>policy.driver.maritalStatusCode</b>
+        </field>
+        <field>
+            <a>drivers.driver.drvrLicState</a>
+            <b>policy.driver.stateProvCd</b>
+        </field>
+        <field>
+            <a>vehicles.vehicle</a>
+            <b>policy.vehicle</b>
+        </field>
+    </mapping>
+    <mapping>
+        <class-a>org.apache.camel.component.dozer.ExpressionMapper</class-a>
+        <class-b>generated_1506187282978.Policies</class-b>
+        <field custom-converter-id="_expressionMapping" custom-converter-param="constant:policy">
+            <a>expression</a>
+            <b>rootEntityType</b>
+        </field>
+        <field custom-converter-id="_expressionMapping" custom-converter-param="constant:PCGAuto">
+            <a>expression</a>
+            <b>name</b>
+        </field>
+        <field custom-converter-id="_expressionMapping" custom-converter-param="constant:created">
+            <a>expression</a>
+            <b>policy.state</b>
+        </field>
+        <field custom-converter-id="_expressionMapping" custom-converter-param="constant:1">
+            <a>expression</a>
+            <b>version</b>
+        </field>
+        <field custom-converter-id="_expressionMapping" custom-converter-param="simple:date:now:yyyy-MM">
+            <a>expression</a>
+            <b>policy.accountingPeriod</b>
+        </field>
+    </mapping>
+    <mapping>
+        <class-a>generated_1506187282094.Policy$Vehicles$Vehicle</class-a>
+        <class-b>generated_1506187282978.Policies$Policy$Vehicle</class-b>
+        <field>
+            <a>vehModel</a>
+            <b>model</b>
+        </field>
+        <field>
+            <a>vin</a>
+            <b>vehIdentificationNo</b>
+        </field>
+        <field>
+            <a>annualMileage</a>
+            <b>verAnnualMiles</b>
+        </field>
+        <field>
+            <a>vehMake</a>
+            <b>manufacturer</b>
+        </field>
+    </mapping>
+</mappings>

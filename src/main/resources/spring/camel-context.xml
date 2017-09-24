@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:camel="http://camel.apache.org/schema/spring" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
+	<camelContext id="camel" xmlns="http://camel.apache.org/schema/spring">
+		<endpoint id="NSMtoCIP"
+			uri="dozer:NSMtoCIP?sourceModel=generated_1506187282094.Policy&amp;targetModel=generated_1506187282978.Policies&amp;marshalId=generated_1506187282978&amp;unmarshalId=generated_1506187282094&amp;mappingFile=transformation.xml" />
+		<dataFormats>
+			<jaxb contextPath="generated_1506187282094" id="generated_1506187282094" />
+			<jaxb contextPath="generated_1506187282978" id="generated_1506187282978" />
+		</dataFormats>
+		<route id="pull-nsm-file">
+			<from id="sftp-pull"
+				uri="sftp://localhost:22/Users/Shared/sftp/?username=camel&amp;password=Abcd1234&amp;move=.done&amp;moveFailed=.error" />
+			<convertBodyTo id="_convertBodyTo1" type="java.lang.String" />
+			<split id="_split1">
+				<xpath>/Policies/Policy</xpath>
+				<to id="_to1" uri="amq:incomingMessageChannel" />
+			</split>
+		</route>
+		<route id="validate-enrich-message">
+			<from id="_from1" uri="amq:incomingMessageChannel" />
+			<onException id="_onException1" useOriginalMessage="true">
+				<exception>org.apache.camel.ValidationException</exception>
+				<handled>
+					<constant>true</constant>
+				</handled>
+				<log id="_log1"
+					message="Policy is invalid.  Error is ${exception.message}. Message contents: ${body}" />
+				<setHeader headerName="errorMessage" id="_setHeader2">
+					<simple>${exception.message}</simple>
+				</setHeader>
+				<inOnly id="_inOnly1" uri="activemq:incomingMessageErrors" />
+			</onException>
+			<to id="_to2" uri="validator:schema/nsm-policy.xsd" />
+			<to id="_to3" uri="xslt:stylesheet/messageEnrichment.xslt" />
+			<to id="_to4" uri="amq:enrichedMessageChannel" />
+			<to
+				uri="sql:INSERT INTO NSM_MESSAGE_STORE (BATCH_ID, FILE_ID, MESSAGE, PROCESSED) VALUES(:#breadcrumbId, :#CamelFileRelativePath, :#${body}, false);" />
+		</route>
+		<route id="message-transformation">
+			<from
+				uri="sql:SELECT * FROM NSM_MESSAGE_STORE WHERE PROCESSED=false?onConsume=UPDATE NSM_MESSAGE_STORE set PROCESSED = true where MESSAGE_ID = :#MESSAGE_ID" />
+			<split>
+				<simple>${body}</simple>
+				<setBody>
+					<simple>
+						${body[MESSAGE]}
+					</simple>
+				</setBody>
+				<to uri="ref:NSMtoCIP" />
+				<to uri="amq:formattedMessageChannel" />
+				<to uri="sql:INSERT INTO CIP_MESSAGE_STORE (BATCH_ID, FILE_ID, MESSAGE, PROCESSED) VALUES(:#breadcrumbId, :#CamelFileRelativePath, :#${body}, false);" />
+
+			</split>
+		</route>
+	</camelContext>
+</beans>

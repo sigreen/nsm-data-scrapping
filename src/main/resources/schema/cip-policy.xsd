@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Policies">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Policy">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="accountingPeriod" type="xs:string"></xs:element>
+							<xs:element name="addressSameGar" type="xs:string"></xs:element>
+							<xs:element name="cancellationNoticeNumber" type="xs:int"></xs:element>
+							<xs:element name="cappingFactor" type="xs:int"></xs:element>
+							<xs:element name="collectorscarinnb" type="xs:int"></xs:element>
+							<xs:element name="commissionOverride" type="xs:string"></xs:element>
+							<xs:element name="commissionRate" type="xs:double"></xs:element>
+							<xs:element name="commissionWaived" type="xs:string"></xs:element>
+							<xs:element name="convExpCreditScore" type="xs:int"></xs:element>
+							<xs:element name="convExpTierExposurePolMakeup" type="xs:int"></xs:element>
+							<xs:element name="convExpTierIncidentFreeYears" type="xs:int"></xs:element>
+							<xs:element name="convOrgnlEarlyShopEffDt" type="xs:string"></xs:element>
+							<xs:element name="convOrgnlEarlyShopRateEffDt" type="xs:string"></xs:element>
+							<xs:element name="convOriginalRateEffDt" type="xs:string"></xs:element>
+							<xs:element name="countryCd" type="xs:string"></xs:element>
+							<xs:element name="coverageType" type="xs:string"></xs:element>
+							<xs:element name="customerNumber" type="xs:int"></xs:element>
+							<xs:element name="earlyShopperDayDifference" type="xs:int"></xs:element>
+							<xs:element name="effective" type="xs:string"></xs:element>
+							<xs:element name="expiration" type="xs:string"></xs:element>
+							<xs:element name="flagRenewalInd" type="xs:string"></xs:element>
+							<xs:element name="inceptionDate" type="xs:string"></xs:element>
+							<xs:element name="insuranceScore" type="xs:int"></xs:element>
+							<xs:element name="insuranceScoreDate" type="xs:string"></xs:element>
+							<xs:element name="insuredNameOnDoc" type="xs:string"></xs:element>
+							<xs:element name="namedNonOwnedPolicyInd" type="xs:string"></xs:element>
+							<xs:element name="nbmaxacoverage" type="xs:int"></xs:element>
+							<xs:element name="nbnoncatclaims" type="xs:string"></xs:element>
+							<xs:element name="paidInFull" type="xs:string"></xs:element>
+							<xs:element name="pcginitialeffectivedate" type="xs:string"></xs:element>
+							<xs:element name="policyNumber" type="xs:string"></xs:element>
+							<xs:element name="policyTitle" type="xs:string"></xs:element>
+							<xs:element name="prevRenewalCycleNum" type="xs:int"></xs:element>
+							<xs:element name="primaryResidenceInd" type="xs:string"></xs:element>
+							<xs:element name="priorPolicyPrem" type="xs:int"></xs:element>
+							<xs:element name="priorToPriorTermPrem" type="xs:int"></xs:element>
+							<xs:element name="producerCd" type="xs:int"></xs:element>
+							<xs:element name="productCd" type="xs:string"></xs:element>
+							<xs:element name="rateEffectiveDate" type="xs:string"></xs:element>
+							<xs:element name="rateRequestDate" type="xs:string"></xs:element>
+							<xs:element name="rateStabilizationFactor1" type="xs:int"></xs:element>
+							<xs:element name="rateStabilizationFactor2" type="xs:int"></xs:element>
+							<xs:element name="rateStabilizationFactor3" type="xs:int"></xs:element>
+							<xs:element name="renewalLocked" type="xs:string"></xs:element>
+							<xs:element name="riskStateCd" type="xs:string"></xs:element>
+							<xs:element name="subProducerCd" type="xs:int"></xs:element>
+							<xs:element name="tierOwner" type="xs:string"></xs:element>
+							<xs:element name="underwriterCd" type="xs:int"></xs:element>
+							<xs:element name="AccidentBenefitACCDEATHCoverage">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="limitAmount" type="xs:int"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="AdditionalPersonswithExtendedUMBIUAB">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="extendedUMBI" type="xs:int"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Driver">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="age" type="xs:int"></xs:element>
+										<xs:element name="ageFirstLicensed" type="xs:int"></xs:element>
+										<xs:element name="annualIncome" type="xs:int"></xs:element>
+										<xs:element name="birthDate" type="xs:string"></xs:element>
+										<xs:element name="convOldDriverNumber" type="xs:int"></xs:element>
+										<xs:element name="driverRelToApplicantCd" type="xs:string"></xs:element>
+										<xs:element name="driverTypeCd" type="xs:string"></xs:element>
+										<xs:element name="firstName" type="xs:string"></xs:element>
+										<xs:element name="genderCd" type="xs:string"></xs:element>
+										<xs:element name="lastName" type="xs:string"></xs:element>
+										<xs:element name="licensePermitNumber" type="xs:string"></xs:element>
+										<xs:element name="licenseStatusCd" type="xs:string"></xs:element>
+										<xs:element name="maritalStatusCode" type="xs:string"></xs:element>
+										<xs:element name="stateProvCd" type="xs:string"></xs:element>
+										<xs:element name="surchargeOverride" type="xs:string"></xs:element>
+										<xs:element name="suspendedInd" type="xs:string"></xs:element>
+										<xs:element name="DriverRatingInfo">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="alcCourseDisc" type="xs:string"></xs:element>
+													<xs:element name="collGraduateSchAchDisc" type="xs:string"></xs:element>
+													<xs:element name="defensiveDriver" type="xs:string"></xs:element>
+													<xs:element name="distantStudentInd" type="xs:string"></xs:element>
+													<xs:element name="driverTraining" type="xs:string"></xs:element>
+													<xs:element name="employeegarage" type="xs:string"></xs:element>
+													<xs:element name="matureDriverImpInd" type="xs:string"></xs:element>
+													<xs:element name="militaryService" type="xs:string"></xs:element>
+													<xs:element name="suspensionRevocationInd" type="xs:string"></xs:element>
+												</xs:sequence>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="DriverSR22Info">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="sr22FillingInd" type="xs:string"></xs:element>
+												</xs:sequence>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="ChartisExtInterfacesReport">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="reportReceivedDate" type="xs:string"></xs:element>
+													<xs:element name="reportStage" type="xs:string"></xs:element>
+													<xs:element name="reportType" type="xs:string"></xs:element>
+													<xs:element name="sendingTime" type="xs:string"></xs:element>
+													<xs:element name="statusMessage" type="xs:string"></xs:element>
+													<xs:element name="success" type="xs:string"></xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="oid" type="xs:int"></xs:attribute>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="IncomeLossBenefitsLIBCoverage">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="applicable" type="xs:string"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Insured">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="education" type="xs:string"></xs:element>
+										<xs:element name="firstName" type="xs:string"></xs:element>
+										<xs:element name="highProfile" type="xs:string"></xs:element>
+										<xs:element name="incidentBusinessThreshold" type="xs:string"></xs:element>
+										<xs:element name="lastName" type="xs:string"></xs:element>
+										<xs:element name="nameTypeCd" type="xs:string"></xs:element>
+										<xs:element name="occupationClassCd" type="xs:int"></xs:element>
+										<xs:element name="other" type="xs:string"></xs:element>
+										<xs:element name="ownEntity" type="xs:int"></xs:element>
+										<xs:element name="personalOrDomesticStaff" type="xs:string"></xs:element>
+										<xs:element name="primaryInsured" type="xs:string"></xs:element>
+										<xs:element name="purposeOfEntity" type="xs:string"></xs:element>
+										<xs:element name="typeOfOccupation" type="xs:int"></xs:element>
+										<xs:element name="PrimaryInsuredMailingAddress">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="address.addressLine1" type="xs:string"></xs:element>
+													<xs:element name="address.city" type="xs:string"></xs:element>
+													<xs:element name="address.countryCd" type="xs:string"></xs:element>
+													<xs:element name="address.postalCode" type="xs:int"></xs:element>
+													<xs:element name="address.stateProvCd" type="xs:string"></xs:element>
+													<xs:element name="updateBillingMailingInd" type="xs:string"></xs:element>
+												</xs:sequence>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="InsuredMailingAddress">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="address.addressLine1" type="xs:string"></xs:element>
+										<xs:element name="address.countryCd" type="xs:string"></xs:element>
+										<xs:element name="address.postalCode" type="xs:int"></xs:element>
+										<xs:element name="address.stateProvCd" type="xs:string"></xs:element>
+										<xs:element name="city" type="xs:string"></xs:element>
+										<xs:element name="city2" type="xs:string"></xs:element>
+										<xs:element name="isDiaplayAddress" type="xs:string"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="LiabilityLimitsCSLCoverage">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="limitAmount" type="xs:int"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="MedicalPaymentsMEDCoverage">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="limitAmount" type="xs:int"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="OtherProduct">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="aigLife" type="xs:int"></xs:element>
+										<xs:element name="aigLifePolicyNum" type="xs:int"></xs:element>
+										<xs:element name="pcgArticles" type="xs:string"></xs:element>
+										<xs:element name="pcgExessLiab" type="xs:string"></xs:element>
+										<xs:element name="pcgHome" type="xs:string"></xs:element>
+										<xs:element name="premierArticles" type="xs:string"></xs:element>
+										<xs:element name="premierExessLiab" type="xs:string"></xs:element>
+										<xs:element name="premierHome" type="xs:string"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="PersonalPropertyCPPCoverage">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="applicable" type="xs:string"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="PETCoverage">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="applicable" type="xs:string"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="PolicyAdditionalInfo">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="assignedRisk" type="xs:int"></xs:element>
+										<xs:element name="bookTransferRemarket" type="xs:string"></xs:element>
+										<xs:element name="cancelled" type="xs:string"></xs:element>
+										<xs:element name="isPolReissueOrRewrite" type="xs:string"></xs:element>
+										<xs:element name="otherCarrier" type="xs:string"></xs:element>
+										<xs:element name="prioCarrierCd" type="xs:int"></xs:element>
+										<xs:element name="priorCarrTenure" type="xs:int"></xs:element>
+										<xs:element name="priorLiabLimit" type="xs:int"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="PolicyCredit">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="affinityCredit" type="xs:int"></xs:element>
+										<xs:element name="armedForces" type="xs:string"></xs:element>
+										<xs:element name="seasonaldiscount" type="xs:string"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="ReducedUMCoverage">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="reducedUm" type="xs:string"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="RoadsideRDCCoverage">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="applicable" type="xs:string"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="TotalDisabilityBenefitsTDECoverage">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="applicable" type="xs:string"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="TotalDisabilityBenefitsTDNCoverage">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="applicable" type="xs:string"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="TripInterruptionEmergencyLivingTELCoverage">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="applicable" type="xs:string"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="UMCSLCoverage">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="limitAmount" type="xs:int"></xs:element>
+										<xs:element name="umtype" type="xs:string"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="UninsuredMotoristsBICoverage">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="convertedCoverage" type="xs:string"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Vehicle" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="abiCd" type="xs:int"></xs:element>
+										<xs:element name="agreedValue" type="xs:int"></xs:element>
+										<xs:element name="annualMilesOvrd" type="xs:string"></xs:element>
+										<xs:element name="avrgAnnualMiles" type="xs:int"></xs:element>
+										<xs:element name="classCode" type="xs:string"></xs:element>
+										<xs:element name="convoldVehicleNumber" type="xs:int"></xs:element>
+										<xs:element name="ctyTaxMintAmt" type="xs:int"></xs:element>
+										<xs:element name="ctyTaxPercAmt" type="xs:int"></xs:element>
+										<xs:element name="engineSize" type="xs:int"></xs:element>
+										<xs:element name="firstPotDamage" type="xs:string"></xs:element>
+										<xs:element name="fullGlass" type="xs:string"></xs:element>
+										<xs:element name="greyMarket" type="xs:string"></xs:element>
+										<xs:element name="height" type="xs:double"></xs:element>
+										<xs:element name="isMedPayEffect" type="xs:string"></xs:element>
+										<xs:element name="liability" type="xs:string"></xs:element>
+										<xs:element name="manufacturer" type="xs:string"></xs:element>
+										<xs:element name="marketValue" type="xs:int"></xs:element>
+										<xs:element name="model" type="xs:string"></xs:element>
+										<xs:element name="modelYear" type="xs:int"></xs:element>
+										<xs:element name="ovrdFirstPotDamage" type="xs:string"></xs:element>
+										<xs:element name="ovrdTitleTransNo" type="xs:string"></xs:element>
+										<xs:element name="printIDcards" type="xs:string"></xs:element>
+										<xs:element name="repAnnualMiles" type="xs:int"></xs:element>
+										<xs:element name="titleTransNo" type="xs:int"></xs:element>
+										<xs:element name="titleTransVerNo" type="xs:int"></xs:element>
+										<xs:element name="vehBodyTypeCd" type="xs:string"></xs:element>
+										<xs:element name="vehExtendedNonOwnerVeh" type="xs:string"></xs:element>
+										<xs:element name="vehIdentificationNo" type="xs:string"></xs:element>
+										<xs:element name="vehTypeCd" type="xs:string"></xs:element>
+										<xs:element name="verAnnualMiles" type="xs:int"></xs:element>
+										<xs:element name="verifiedFirstPotDamage" type="xs:string"></xs:element>
+										<xs:element name="vinStyle" type="xs:int"></xs:element>
+										<xs:element name="CashSettlementCoverage">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="cashSettlement" type="xs:string"></xs:element>
+												</xs:sequence>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="ChartisPAutoVehicleCredits">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="antiLockBrakeCd" type="xs:string"></xs:element>
+													<xs:element name="applyMultiCarDiscountInd"
+														type="xs:string"></xs:element>
+													<xs:element name="autoBrake" type="xs:string"></xs:element>
+													<xs:element name="blindSpotMonitor" type="xs:string"></xs:element>
+													<xs:element name="dayLights" type="xs:string"></xs:element>
+													<xs:element name="driverAlertSys" type="xs:string"></xs:element>
+													<xs:element name="guardGatedCom" type="xs:string"></xs:element>
+													<xs:element name="hybrid" type="xs:string"></xs:element>
+													<xs:element name="hybridOrElectric" type="xs:string"></xs:element>
+													<xs:element name="laneDepartMonitor" type="xs:string"></xs:element>
+													<xs:element name="overrideMultiCarDiscountInd"
+														type="xs:string"></xs:element>
+													<xs:element name="passiveRestraints" type="xs:int"></xs:element>
+													<xs:element name="securityOptionsCd" type="xs:int"></xs:element>
+												</xs:sequence>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="ChartisPAutoVehicleOwnership">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="additionalOwnersInd" type="xs:string"></xs:element>
+													<xs:element name="addressLine1" type="xs:string"></xs:element>
+													<xs:element name="city" type="xs:string"></xs:element>
+													<xs:element name="country" type="xs:string"></xs:element>
+													<xs:element name="financedInd" type="xs:string"></xs:element>
+													<xs:element name="firstName" type="xs:string"></xs:element>
+													<xs:element name="lastName" type="xs:string"></xs:element>
+													<xs:element name="location" type="xs:string"></xs:element>
+													<xs:element name="ownedInd" type="xs:string"></xs:element>
+													<xs:element name="ownerType" type="xs:string"></xs:element>
+													<xs:element name="regOwner" type="xs:int"></xs:element>
+													<xs:element name="regOwnerOther" type="xs:int"></xs:element>
+													<xs:element name="stateProvCd" type="xs:string"></xs:element>
+													<xs:element name="zipCode" type="xs:int"></xs:element>
+												</xs:sequence>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="GaragingAddress">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="addressLine1" type="xs:string"></xs:element>
+													<xs:element name="city" type="xs:string"></xs:element>
+													<xs:element name="city2" type="xs:string"></xs:element>
+													<xs:element name="countryCd" type="xs:string"></xs:element>
+													<xs:element name="garaged" type="xs:string"></xs:element>
+													<xs:element name="garagedSecondary" type="xs:string"></xs:element>
+													<xs:element name="garagingLocation" type="xs:string"></xs:element>
+													<xs:element name="postalCode" type="xs:int"></xs:element>
+													<xs:element name="ratingTerritory" type="xs:int"></xs:element>
+													<xs:element name="regionCd" type="xs:int"></xs:element>
+													<xs:element name="stateProvCd" type="xs:string"></xs:element>
+													<xs:element name="storedInMasonry" type="xs:string"></xs:element>
+												</xs:sequence>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PAutoACCDEATHDomainCoverage">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="limitAmount" type="xs:int"></xs:element>
+													<xs:element name="PremiumEntry" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="actualAmt" type="xs:int"></xs:element>
+																<xs:element name="changeAmt" type="xs:int"></xs:element>
+																<xs:element name="periodAmt" type="xs:int"></xs:element>
+																<xs:element name="premiumType" type="xs:string"></xs:element>
+															</xs:sequence>
+															<xs:attribute name="premiumCd" type="xs:string"></xs:attribute>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PAutoBIDomainCoverage">
+											<xs:complexType>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PAutoCOLLCoverage">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="deductibleAmount" type="xs:int"></xs:element>
+												</xs:sequence>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PAutoCOLLDomainCoverage">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="deductibleAmount" type="xs:int"></xs:element>
+													<xs:element name="PremiumEntry" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="actualAmt" type="xs:int"></xs:element>
+																<xs:element name="changeAmt" type="xs:int"></xs:element>
+																<xs:element name="periodAmt" type="xs:int"></xs:element>
+																<xs:element name="premiumType" type="xs:string"></xs:element>
+															</xs:sequence>
+															<xs:attribute name="premiumCd" type="xs:string"></xs:attribute>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PAutoCOMPCoverage">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="deductibleAmount" type="xs:int"></xs:element>
+												</xs:sequence>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PAutoCOMPDomainCoverage">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="deductibleAmount" type="xs:int"></xs:element>
+													<xs:element name="PremiumEntry" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="actualAmt" type="xs:int"></xs:element>
+																<xs:element name="changeAmt" type="xs:int"></xs:element>
+																<xs:element name="periodAmt" type="xs:int"></xs:element>
+																<xs:element name="premiumType" type="xs:string"></xs:element>
+															</xs:sequence>
+															<xs:attribute name="premiumCd" type="xs:string"></xs:attribute>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PAutoCPDomainCoverage">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="limitAmount" type="xs:int"></xs:element>
+												</xs:sequence>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PAutoCSLDomainCoverage">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="limitAmount" type="xs:int"></xs:element>
+													<xs:element name="PremiumEntry" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="actualAmt" type="xs:int"></xs:element>
+																<xs:element name="changeAmt" type="xs:int"></xs:element>
+																<xs:element name="periodAmt" type="xs:int"></xs:element>
+																<xs:element name="premiumType" type="xs:string"></xs:element>
+															</xs:sequence>
+															<xs:attribute name="premiumCd" type="xs:string"></xs:attribute>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PAutoMEDDomainCoverage">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="limitAmount" type="xs:int"></xs:element>
+													<xs:element name="PremiumEntry" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="actualAmt" type="xs:int"></xs:element>
+																<xs:element name="changeAmt" type="xs:int"></xs:element>
+																<xs:element name="periodAmt" type="xs:int"></xs:element>
+																<xs:element name="premiumType" type="xs:string"></xs:element>
+															</xs:sequence>
+															<xs:attribute name="premiumCd" type="xs:string"></xs:attribute>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PAutoMEDPLCoverage">
+											<xs:complexType>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PAutoPDDomainCoverage">
+											<xs:complexType>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PAutoUMBIDomainCoverage">
+											<xs:complexType>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PAutoUMCSLDomainCoverage">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="limitAmount" type="xs:int"></xs:element>
+													<xs:element name="PremiumEntry" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="actualAmt" type="xs:int"></xs:element>
+																<xs:element name="changeAmt" type="xs:int"></xs:element>
+																<xs:element name="periodAmt" type="xs:int"></xs:element>
+																<xs:element name="premiumType" type="xs:string"></xs:element>
+															</xs:sequence>
+															<xs:attribute name="premiumCd" type="xs:string"></xs:attribute>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PAutoUMPDDomainCoverage">
+											<xs:complexType>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="VehicleRatingInfo">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="collSymbol" type="xs:int"></xs:element>
+													<xs:element name="collSymbolRef" type="xs:int"></xs:element>
+													<xs:element name="compSymbol" type="xs:int"></xs:element>
+													<xs:element name="compSymbolRef" type="xs:int"></xs:element>
+													<xs:element name="distanceOneWay" type="xs:int"></xs:element>
+													<xs:element name="effectivedt" type="xs:string"></xs:element>
+													<xs:element name="fromBlueBookInd" type="xs:string"></xs:element>
+													<xs:element name="inspected" type="xs:string"></xs:element>
+													<xs:element name="isVehRegularUse" type="xs:string"></xs:element>
+													<xs:element name="liabilitySymbol" type="xs:int"></xs:element>
+													<xs:element name="numDaysDrivenPerWeek" type="xs:int"></xs:element>
+													<xs:element name="pipMedSymbol" type="xs:int"></xs:element>
+													<xs:element name="registrationStateCd" type="xs:string"></xs:element>
+													<xs:element name="vehicleUsageCd" type="xs:string"></xs:element>
+												</xs:sequence>
+												<xs:attribute name="state" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PremiumEntry" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="actualAmt" type="xs:int"></xs:element>
+													<xs:element name="changeAmt" type="xs:int"></xs:element>
+													<xs:element name="periodAmt" type="xs:int"></xs:element>
+													<xs:element name="premiumType" type="xs:string"></xs:element>
+												</xs:sequence>
+												<xs:attribute name="premiumCd" type="xs:string"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="ChartisExtInterfacesReport">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="documentName" type="xs:string"></xs:element>
+													<xs:element name="reportReceivedDate" type="xs:string"></xs:element>
+													<xs:element name="reportStage" type="xs:string"></xs:element>
+													<xs:element name="reportType" type="xs:string"></xs:element>
+													<xs:element name="sendingTime" type="xs:string"></xs:element>
+													<xs:element name="statusMessage" type="xs:string"></xs:element>
+													<xs:element name="success" type="xs:string"></xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="oid" type="xs:int"></xs:attribute>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="VehicleHomeAlterationVHACoverage">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="applicable" type="xs:string"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="WorkLossWLC">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="applicable" type="xs:string"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="state" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="PremiumEntry" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="actualAmt" type="xs:int"></xs:element>
+										<xs:element name="changeAmt" type="xs:int"></xs:element>
+										<xs:element name="periodAmt" type="xs:int"></xs:element>
+										<xs:element name="premiumType" type="xs:string"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="premiumCd" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="ChartisTier">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="convPriorTier" type="xs:int"></xs:element>
+										<xs:element name="systemGeneratedTier" type="xs:int"></xs:element>
+										<xs:element name="tierOverrideInd" type="xs:string"></xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="CForm" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="formCd" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="DriverVehicleRelationship">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="driver">
+											<xs:complexType>
+												<xs:attribute name="oid" type="xs:int"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="relationshipType" type="xs:string"></xs:element>
+										<xs:element name="seqNo" type="xs:int"></xs:element>
+										<xs:element name="vehicle">
+											<xs:complexType>
+												<xs:attribute name="oid" type="xs:int"></xs:attribute>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="state" type="xs:string"></xs:attribute>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="personalBillingAccount">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="billingInfo">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="billType" type="xs:string"></xs:element>
+										<xs:element name="billingAccountName" type="xs:string"></xs:element>
+										<xs:element name="billingAddress">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="addressLine1" type="xs:string"></xs:element>
+													<xs:element name="city" type="xs:string"></xs:element>
+													<xs:element name="countryCd" type="xs:string"></xs:element>
+													<xs:element name="postalCode" type="xs:int"></xs:element>
+													<xs:element name="stateProvCd" type="xs:string"></xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="billingNameInfo">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="firstName" type="xs:string"></xs:element>
+													<xs:element name="lastName" type="xs:string"></xs:element>
+													<xs:element name="nameTypeCd" type="xs:string"></xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="currency" type="xs:string"></xs:element>
+										<xs:element name="customerNumber" type="xs:int"></xs:element>
+										<xs:element name="dueDate" type="xs:int"></xs:element>
+										<xs:element name="monthlyDueDayConfig">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="monthDays" type="xs:int"></xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="producerCd" type="xs:int"></xs:element>
+										<xs:element name="deliveryMethod" type="xs:string"></xs:element>
+										<xs:element name="originalPaymentPlanCd" type="xs:string"></xs:element>
+										<xs:element name="paymentPlanCd" type="xs:string"></xs:element>
+										<xs:element name="recurringPayments" type="xs:string"></xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="accountNumber" type="xs:int"></xs:element>
+							<xs:element name="enableRecurringPayments" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="name" type="xs:string"></xs:attribute>
+			<xs:attribute name="version" type="xs:int"></xs:attribute>
+			<xs:attribute name="rootEntityType" type="xs:string"></xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

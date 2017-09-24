@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Policies>
+   <Policy>
+      <Entity_ID>15795104</Entity_ID>
+      <Contract_ID>71237104</Contract_ID>
+      <Line_Code>AUTO</Line_Code>
+      <Sub_Line>COLLAUTO</Sub_Line>
+      <Contract_Num>AVP 3822419-00</Contract_Num>
+      <Contract_State>CA</Contract_State>
+      <Revision_Object_Code>Applicatn</Revision_Object_Code>
+      <Incept_Date>2017-06-01 00:01:00.000</Incept_Date>
+      <Eff_Date>2017-06-01 00:01:00.000</Eff_Date>
+      <Exp_Date>2018-06-01 00:01:00.000</Exp_Date>
+      <Revision_Eff_Date>2017-06-01 00:01:00.000</Revision_Eff_Date>
+      <Revision_Exp_Date>2018-06-01 00:01:00.000</Revision_Exp_Date>
+      <Cancel_Date>NEED THIS</Cancel_Date>
+      <Reinstate_Date>NEED THIS</Reinstate_Date>
+      <Created_On>NEED THIS</Created_On>
+      <Prior_Contract_Num>NEED THIS</Prior_Contract_Num>
+      <Original_Contract_Num>NEED THIS</Original_Contract_Num>
+      <Renewed_Ind>N</Renewed_Ind>
+      <Renewal_Term>12</Renewal_Term>
+      <New_To_Book_Ind>Y</New_To_Book_Ind>
+      <New_To_Supplier_Ind>Y</New_To_Supplier_Ind>
+      <Non_Renew_Ind>N</Non_Renew_Ind>
+      <Revision_Num>0</Revision_Num>
+      <Inst_Bill_Ind>N</Inst_Bill_Ind>
+      <Written_Prem>900.55</Written_Prem>
+      <Full_Term_Prem>900.55</Full_Term_Prem>
+      <Billed_Prem>900.55</Billed_Prem>
+      <Written_Fee>2.00</Written_Fee>
+      <Full_Term_Fee>2.00</Full_Term_Fee>
+      <Billed_Fee>2.00</Billed_Fee>
+      <Written_Tax>0.00</Written_Tax>
+      <Full_Term_Tax>0.00</Full_Term_Tax>
+      <Billed_Tax>0.00</Billed_Tax>
+      <Net_Change_Prem>900.55</Net_Change_Prem>
+      <Net_Change_Tax>0.00</Net_Change_Tax>
+      <Net_Change_Fee>2.00</Net_Change_Fee>
+      <Unbilled_Prem>0.00</Unbilled_Prem>
+      <Unbilled_Tax>0.00</Unbilled_Tax>
+      <Unbilled_Fee>0.00</Unbilled_Fee>
+      <Booked_Prem>900.55</Booked_Prem>
+      <Booked_Tax>0.00</Booked_Tax>
+      <Booked_Fee>2.00</Booked_Fee>
+      <Min_Earned_Amount>50.00</Min_Earned_Amount>
+      <Entity_Name>MICHAEL PHELPS</Entity_Name>
+      <Indv_First_Name>MICHAEL</Indv_First_Name>
+      <Indv_Middle_Name />
+      <Indv_Last_Name>PHELPS</Indv_Last_Name>
+      <Mail_Address_1>582 RODEO DR</Mail_Address_1>
+      <Mail_City>LOS ANGELES</Mail_City>
+      <Mail_County>Los Angeles</Mail_County>
+      <Mail_Zip>90078</Mail_Zip>
+      <Mail_State>CA</Mail_State>
+      <Accept_Limit_Usage>Y</Accept_Limit_Usage>
+      <All_Adults_Gen_Use_Veh>Y</All_Adults_Gen_Use_Veh>
+      <Enclosed_Private_Garage>N</Enclosed_Private_Garage>
+      <Any_Fire_Flood_Claims>N</Any_Fire_Flood_Claims>
+      <Any_Repairs_Done>N</Any_Repairs_Done>
+      <Active_Military>N</Active_Military>
+      <All_Veh_Cust_Control>N</All_Veh_Cust_Control>
+      <Inexperienced_Drivers>N</Inexperienced_Drivers>
+      <At_Fault_Accidents>N</At_Fault_Accidents>
+      <DUI_Reckless_Conviction>N</DUI_Reckless_Conviction>
+      <Drivers>
+         <Driver>
+            <Contract_ID>71237104</Contract_ID>
+            <Article_ID>1611081104</Article_ID>
+            <Article_Desc>MICHAEL PHELPS</Article_Desc>
+            <Article_Type>AADRVR</Article_Type>
+            <Article_Class>C</Article_Class>
+            <Status>A</Status>
+            <Book_Driver_Num>2</Book_Driver_Num>
+            <Insured_Type>Primary</Insured_Type>
+            <Excluded_Ind>N</Excluded_Ind>
+            <Relation_To_Applicant>I</Relation_To_Applicant>
+            <Relation_To_Applicant_Desc>Self</Relation_To_Applicant_Desc>
+            <Defensive_Driver_Ind>N</Defensive_Driver_Ind>
+            <Will_Drive_Insured_Vehicle>Y</Will_Drive_Insured_Vehicle>
+            <Assigned_Risk_Ind>N</Assigned_Risk_Ind>
+            <Driving_Experience>10</Driving_Experience>
+            <Birth_Date>1956-04-01 00:00:00.000</Birth_Date>
+            <Occupation_Class>SA</Occupation_Class>
+            <Occupation_Class_Desc>Salaried</Occupation_Class_Desc>
+            <Drvr_Lic_Num>H3434343</Drvr_Lic_Num>
+            <Drvr_Lic_State>CA</Drvr_Lic_State>
+            <Marital_Status>P</Marital_Status>
+            <Marital_Status_Desc>Separated</Marital_Status_Desc>
+            <mvr_clean_record_ind>Y</mvr_clean_record_ind>
+            <Violations />
+         </Driver>
+      </Drivers>
+      <Vehicles>
+         <Vehicle>
+            <Contract_ID>71237104</Contract_ID>
+            <Article_ID>1611079104</Article_ID>
+            <Article_Desc>1965 Ford Mustang</Article_Desc>
+            <Article_Type>AAVEH</Article_Type>
+            <Article_Class>C</Article_Class>
+            <Status>A</Status>
+            <Comp_Veh_Num>1</Comp_Veh_Num>
+            <Book_Veh_Num>1</Book_Veh_Num>
+            <Veh_Year>1965</Veh_Year>
+            <Veh_Make>Ford</Veh_Make>
+            <Veh_Model>Mustang</Veh_Model>
+            <Veh_Body_Type_Code>2drS</Veh_Body_Type_Code>
+            <Veh_Vody_Type_Desc>2dr Sed</Veh_Vody_Type_Desc>
+            <Veh_Type_Code>1</Veh_Type_Code>
+            <Veh_Type_Desc>Antique</Veh_Type_Desc>
+            <VIN>VN1111111</VIN>
+            <Garaging_Code>P</Garaging_Code>
+            <Garaging_Desc>Enclosed Private Garage</Garaging_Desc>
+            <Annual_Mileage>5000</Annual_Mileage>
+            <Stated_Amount>40000</Stated_Amount>
+            <Condition_Code>Cond1</Condition_Code>
+            <Condition_Desc>1 - Excellent</Condition_Desc>
+            <Usage_Car_Shows_Ind>N</Usage_Car_Shows_Ind>
+            <Usage_Visitors_Ind>N</Usage_Visitors_Ind>
+            <Usage_Maintenance_Ind>N</Usage_Maintenance_Ind>
+            <Usage_Racing_Ind>N</Usage_Racing_Ind>
+            <Usage_Drivers_Ed_Events_Ind>N</Usage_Drivers_Ed_Events_Ind>
+            <Usage_General_Transport_Ind>N</Usage_General_Transport_Ind>
+            <Usage_Errands_Ind>N</Usage_Errands_Ind>
+            <Usage_Work_Ind>N</Usage_Work_Ind>
+            <Usage_Vacation_Ind>N</Usage_Vacation_Ind>
+            <Usage_Restaurants_Ind>N</Usage_Restaurants_Ind>
+            <Usage_Recreational_Ind>N</Usage_Recreational_Ind>
+            <Usage_Off_Road_Ind>N</Usage_Off_Road_Ind>
+            <Usage_Other_Ind>N</Usage_Other_Ind>
+            <Registration_Country>USA</Registration_Country>
+            <Locations>
+               <Location>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611079104</Article_ID>
+                  <book_veh_num>1</book_veh_num>
+                  <Loc_Num>1</Loc_Num>
+                  <Loc_Desc>Garage</Loc_Desc>
+                  <Address_Line_1>999 RODEO DR</Address_Line_1>
+                  <City>LOS ANGELES</City>
+                  <State>CA</State>
+                  <Zip>90078</Zip>
+                  <Country>USA</Country>
+               </Location>
+            </Locations>
+            <Vehicle_Products>
+               <Vehicle_Product>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611079104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>156.00</Full_Term_Amount>
+                  <Written_Amount>156.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>156.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Comprehensive</Product_Desc>
+                  <Product_Code>COMP</Product_Code>
+                  <Ded_1>2500</Ded_1>
+                  <Dollar_or_Percent>C</Dollar_or_Percent>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611079104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>124.00</Full_Term_Amount>
+                  <Written_Amount>124.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>124.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Collision</Product_Desc>
+                  <Product_Code>COLL</Product_Code>
+                  <Ded_1>500</Ded_1>
+                  <Dollar_or_Percent>C</Dollar_or_Percent>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611079104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>145.00</Full_Term_Amount>
+                  <Written_Amount>145.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>145.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Bodily Injury/Property Damage Limit</Product_Desc>
+                  <Product_Code>BIPD</Product_Code>
+                  <Limit_1>500000</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611079104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>25.00</Full_Term_Amount>
+                  <Written_Amount>25.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>25.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Medical Payments</Product_Desc>
+                  <Product_Code>MEDPM</Product_Code>
+                  <Limit_1>5000</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611079104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>184.00</Full_Term_Amount>
+                  <Written_Amount>184.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>184.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Uninsured/Underinsured Motorist BI Only</Product_Desc>
+                  <Product_Code>UUMBI</Product_Code>
+                  <Limit_1>500000</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611079104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>5.00</Full_Term_Amount>
+                  <Written_Amount>5.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>5.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Uninsured Motorist Property Damage</Product_Desc>
+                  <Product_Code>UMPD</Product_Code>
+                  <Limit_1>3500</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611079104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>-127.80</Full_Term_Amount>
+                  <Written_Amount>-127.80</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>-127.80</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Good Driver Discount</Product_Desc>
+                  <Product_Code>GDD</Product_Code>
+                  <MPA_Or_Disc_Surcharge_Selection>Yes</MPA_Or_Disc_Surcharge_Selection>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611079104</Article_ID>
+                  <Product_Cost_Type>F</Product_Cost_Type>
+                  <Full_Term_Amount>1.00</Full_Term_Amount>
+                  <Written_Amount>1.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>1.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>Y</Fully_Earned_Ind>
+                  <Product_Desc>Auto Theft Fund</Product_Desc>
+                  <Product_Code>CASURCH</Product_Code>
+                  <MPA_Or_Disc_Surcharge_Selection>Yes</MPA_Or_Disc_Surcharge_Selection>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+            </Vehicle_Products>
+         </Vehicle>
+         <Vehicle>
+            <Contract_ID>71237104</Contract_ID>
+            <Article_ID>1611080104</Article_ID>
+            <Article_Desc>1974 Chevrolet Camaro</Article_Desc>
+            <Article_Type>AAVEH</Article_Type>
+            <Article_Class>C</Article_Class>
+            <Status>A</Status>
+            <Comp_Veh_Num>2</Comp_Veh_Num>
+            <Book_Veh_Num>2</Book_Veh_Num>
+            <Veh_Year>1974</Veh_Year>
+            <Veh_Make>Chevrolet</Veh_Make>
+            <Veh_Model>Camaro</Veh_Model>
+            <Veh_Body_Type_Code>ANTIQ</Veh_Body_Type_Code>
+            <Veh_Vody_Type_Desc>Antique Autos</Veh_Vody_Type_Desc>
+            <Veh_Type_Code>1</Veh_Type_Code>
+            <Veh_Type_Desc>Antique</Veh_Type_Desc>
+            <VIN>V22222222</VIN>
+            <Garaging_Code>P</Garaging_Code>
+            <Garaging_Desc>Enclosed Private Garage</Garaging_Desc>
+            <Annual_Mileage>2500</Annual_Mileage>
+            <Stated_Amount>30000</Stated_Amount>
+            <Condition_Code>Cond1</Condition_Code>
+            <Condition_Desc>1 - Excellent</Condition_Desc>
+            <Usage_Car_Shows_Ind>N</Usage_Car_Shows_Ind>
+            <Usage_Visitors_Ind>N</Usage_Visitors_Ind>
+            <Usage_Maintenance_Ind>N</Usage_Maintenance_Ind>
+            <Usage_Racing_Ind>N</Usage_Racing_Ind>
+            <Usage_Drivers_Ed_Events_Ind>N</Usage_Drivers_Ed_Events_Ind>
+            <Usage_General_Transport_Ind>N</Usage_General_Transport_Ind>
+            <Usage_Errands_Ind>N</Usage_Errands_Ind>
+            <Usage_Work_Ind>N</Usage_Work_Ind>
+            <Usage_Vacation_Ind>N</Usage_Vacation_Ind>
+            <Usage_Restaurants_Ind>N</Usage_Restaurants_Ind>
+            <Usage_Recreational_Ind>N</Usage_Recreational_Ind>
+            <Usage_Off_Road_Ind>N</Usage_Off_Road_Ind>
+            <Usage_Other_Ind>N</Usage_Other_Ind>
+            <Registration_Country>USA</Registration_Country>
+            <Locations>
+               <Location>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611080104</Article_ID>
+                  <book_veh_num>2</book_veh_num>
+                  <Loc_Num>4</Loc_Num>
+                  <Loc_Desc>Mailing</Loc_Desc>
+                  <Address_Line_1>582 RODEO DR</Address_Line_1>
+                  <City>LOS ANGELES</City>
+                  <State>CA</State>
+                  <Zip>90078</Zip>
+                  <Country>USA</Country>
+               </Location>
+            </Locations>
+            <Vehicle_Products>
+               <Vehicle_Product>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611080104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>129.00</Full_Term_Amount>
+                  <Written_Amount>129.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>129.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Comprehensive</Product_Desc>
+                  <Product_Code>COMP</Product_Code>
+                  <Ded_1>250</Ded_1>
+                  <Dollar_or_Percent>C</Dollar_or_Percent>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611080104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>84.00</Full_Term_Amount>
+                  <Written_Amount>84.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>84.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Collision</Product_Desc>
+                  <Product_Code>COLL</Product_Code>
+                  <Ded_1>1000</Ded_1>
+                  <Dollar_or_Percent>C</Dollar_or_Percent>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611080104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>93.00</Full_Term_Amount>
+                  <Written_Amount>93.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>93.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Bodily Injury/Property Damage Limit</Product_Desc>
+                  <Product_Code>BIPD</Product_Code>
+                  <Limit_1>500000</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611080104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>16.00</Full_Term_Amount>
+                  <Written_Amount>16.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>16.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Medical Payments</Product_Desc>
+                  <Product_Code>MEDPM</Product_Code>
+                  <Limit_1>5000</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611080104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>118.00</Full_Term_Amount>
+                  <Written_Amount>118.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>118.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Uninsured/Underinsured Motorist BI Only</Product_Desc>
+                  <Product_Code>UUMBI</Product_Code>
+                  <Limit_1>500000</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611080104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>3.00</Full_Term_Amount>
+                  <Written_Amount>3.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>3.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Uninsured Motorist Property Damage</Product_Desc>
+                  <Product_Code>UMPD</Product_Code>
+                  <Limit_1>3500</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611080104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>-88.60</Full_Term_Amount>
+                  <Written_Amount>-88.60</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>-88.60</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Good Driver Discount</Product_Desc>
+                  <Product_Code>GDD</Product_Code>
+                  <MPA_Or_Disc_Surcharge_Selection>Yes</MPA_Or_Disc_Surcharge_Selection>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611080104</Article_ID>
+                  <Product_Cost_Type>F</Product_Cost_Type>
+                  <Full_Term_Amount>1.00</Full_Term_Amount>
+                  <Written_Amount>1.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>1.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>Y</Fully_Earned_Ind>
+                  <Product_Desc>Auto Theft Fund</Product_Desc>
+                  <Product_Code>CASURCH</Product_Code>
+                  <MPA_Or_Disc_Surcharge_Selection>Yes</MPA_Or_Disc_Surcharge_Selection>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+            </Vehicle_Products>
+         </Vehicle>
+      </Vehicles>
+      <Policy_Articles>
+         <Policy_Article>
+            <Contract_ID>71237104</Contract_ID>
+            <Article_ID>1611077104</Article_ID>
+            <Article_Desc>Line(AUTO), State()</Article_Desc>
+            <Article_Type>LINE</Article_Type>
+            <Article_Class>C</Article_Class>
+            <Status>A</Status>
+            <Policy_Products>
+               <Policy_Product>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611077104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>34.95</Full_Term_Amount>
+                  <Written_Amount>34.95</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>34.95</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Towing and Labor (TLC) - Platinum</Product_Desc>
+                  <Product_Code>PLAT</Product_Code>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Policy_Product>
+               <Policy_Product>
+                  <Contract_ID>71237104</Contract_ID>
+                  <Article_ID>1611077104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>0.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Spare Parts</Product_Desc>
+                  <Product_Code>SP</Product_Code>
+                  <Limit_1>500</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Policy_Product>
+            </Policy_Products>
+         </Policy_Article>
+      </Policy_Articles>
+   </Policy>
+   <Policy>
+      <Entity_ID>15795104</Entity_ID>
+      <Contract_ID>71238104</Contract_ID>
+      <Line_Code>AUTO</Line_Code>
+      <Sub_Line>COLLAUTO</Sub_Line>
+      <Contract_Num>AVP 3822419-00</Contract_Num>
+      <Contract_State>CA</Contract_State>
+      <Revision_Object_Code>Endorse</Revision_Object_Code>
+      <Incept_Date>2017-05-31 16:01:00.000</Incept_Date>
+      <Eff_Date>2017-06-01 00:01:00.000</Eff_Date>
+      <Exp_Date>2018-06-01 00:01:00.000</Exp_Date>
+      <Revision_Eff_Date>2017-07-01 00:01:00.000</Revision_Eff_Date>
+      <Revision_Exp_Date>2017-07-25 00:01:00.000</Revision_Exp_Date>
+      <Cancel_Date>NEED THIS</Cancel_Date>
+      <Reinstate_Date>NEED THIS</Reinstate_Date>
+      <Created_On>NEED THIS</Created_On>
+      <Prior_Contract_Num>NEED THIS</Prior_Contract_Num>
+      <Original_Contract_Num>NEED THIS</Original_Contract_Num>
+      <Renewed_Ind>N</Renewed_Ind>
+      <Renewal_Term>12</Renewal_Term>
+      <New_To_Book_Ind>Y</New_To_Book_Ind>
+      <New_To_Supplier_Ind>Y</New_To_Supplier_Ind>
+      <Non_Renew_Ind>N</Non_Renew_Ind>
+      <Revision_Num>1</Revision_Num>
+      <Endorse_Num>1</Endorse_Num>
+      <Inst_Bill_Ind>N</Inst_Bill_Ind>
+      <Written_Prem>592.84</Written_Prem>
+      <Full_Term_Prem>565.35</Full_Term_Prem>
+      <Billed_Prem>-307.71</Billed_Prem>
+      <Written_Fee>1.00</Written_Fee>
+      <Full_Term_Fee>1.00</Full_Term_Fee>
+      <Billed_Fee>-1.00</Billed_Fee>
+      <Written_Tax>0.00</Written_Tax>
+      <Full_Term_Tax>0.00</Full_Term_Tax>
+      <Billed_Tax>0.00</Billed_Tax>
+      <Net_Change_Prem>-307.71</Net_Change_Prem>
+      <Net_Change_Tax>0.00</Net_Change_Tax>
+      <Net_Change_Fee>-1.00</Net_Change_Fee>
+      <Unbilled_Prem>0.00</Unbilled_Prem>
+      <Unbilled_Tax>0.00</Unbilled_Tax>
+      <Unbilled_Fee>0.00</Unbilled_Fee>
+      <Booked_Prem>-307.71</Booked_Prem>
+      <Booked_Tax>0.00</Booked_Tax>
+      <Booked_Fee>-1.00</Booked_Fee>
+      <Min_Earned_Amount>50.00</Min_Earned_Amount>
+      <Entity_Name>MICHAEL PHELPS</Entity_Name>
+      <Indv_First_Name>MICHAEL</Indv_First_Name>
+      <Indv_Middle_Name />
+      <Indv_Last_Name>PHELPS</Indv_Last_Name>
+      <Mail_Address_1>582 RODEO DR</Mail_Address_1>
+      <Mail_City>LOS ANGELES</Mail_City>
+      <Mail_County>Los Angeles</Mail_County>
+      <Mail_Zip>90078</Mail_Zip>
+      <Mail_State>CA</Mail_State>
+      <Accept_Limit_Usage>Y</Accept_Limit_Usage>
+      <All_Adults_Gen_Use_Veh>Y</All_Adults_Gen_Use_Veh>
+      <Enclosed_Private_Garage>N</Enclosed_Private_Garage>
+      <Any_Fire_Flood_Claims>N</Any_Fire_Flood_Claims>
+      <Any_Repairs_Done>N</Any_Repairs_Done>
+      <Active_Military>N</Active_Military>
+      <All_Veh_Cust_Control>N</All_Veh_Cust_Control>
+      <Inexperienced_Drivers>N</Inexperienced_Drivers>
+      <At_Fault_Accidents>N</At_Fault_Accidents>
+      <DUI_Reckless_Conviction>N</DUI_Reckless_Conviction>
+      <Drivers>
+         <Driver>
+            <Contract_ID>71238104</Contract_ID>
+            <Article_ID>1611111104</Article_ID>
+            <Article_Desc>MICHAEL PHELPS</Article_Desc>
+            <Article_Type>AADRVR</Article_Type>
+            <Article_Class>C</Article_Class>
+            <Status>C</Status>
+            <Book_Driver_Num>2</Book_Driver_Num>
+            <Insured_Type>Primary</Insured_Type>
+            <Excluded_Ind>N</Excluded_Ind>
+            <Relation_To_Applicant>I</Relation_To_Applicant>
+            <Relation_To_Applicant_Desc>Self</Relation_To_Applicant_Desc>
+            <Defensive_Driver_Ind>N</Defensive_Driver_Ind>
+            <Will_Drive_Insured_Vehicle>Y</Will_Drive_Insured_Vehicle>
+            <Assigned_Risk_Ind>N</Assigned_Risk_Ind>
+            <Driving_Experience>10</Driving_Experience>
+            <Birth_Date>1956-04-01 00:00:00.000</Birth_Date>
+            <Occupation_Class>SA</Occupation_Class>
+            <Occupation_Class_Desc>Salaried</Occupation_Class_Desc>
+            <Drvr_Lic_Num>H3434343</Drvr_Lic_Num>
+            <Drvr_Lic_State>CA</Drvr_Lic_State>
+            <Marital_Status>P</Marital_Status>
+            <Marital_Status_Desc>Separated</Marital_Status_Desc>
+            <mvr_clean_record_ind>Y</mvr_clean_record_ind>
+            <Violations />
+         </Driver>
+      </Drivers>
+      <Vehicles>
+         <Vehicle>
+            <Contract_ID>71238104</Contract_ID>
+            <Article_ID>1611109104</Article_ID>
+            <Article_Desc>1965 Ford Mustang</Article_Desc>
+            <Article_Type>AAVEH</Article_Type>
+            <Article_Class>C</Article_Class>
+            <Status>C</Status>
+            <Comp_Veh_Num>1</Comp_Veh_Num>
+            <Book_Veh_Num>1</Book_Veh_Num>
+            <Veh_Year>1965</Veh_Year>
+            <Veh_Make>Ford</Veh_Make>
+            <Veh_Model>Mustang</Veh_Model>
+            <Veh_Body_Type_Code>2drS</Veh_Body_Type_Code>
+            <Veh_Vody_Type_Desc>2dr Sed</Veh_Vody_Type_Desc>
+            <Veh_Type_Code>1</Veh_Type_Code>
+            <Veh_Type_Desc>Antique</Veh_Type_Desc>
+            <VIN>VN1111111</VIN>
+            <Garaging_Code>P</Garaging_Code>
+            <Garaging_Desc>Enclosed Private Garage</Garaging_Desc>
+            <Annual_Mileage>5000</Annual_Mileage>
+            <Stated_Amount>40000</Stated_Amount>
+            <Condition_Code>Cond1</Condition_Code>
+            <Condition_Desc>1 - Excellent</Condition_Desc>
+            <Usage_Car_Shows_Ind>N</Usage_Car_Shows_Ind>
+            <Usage_Visitors_Ind>N</Usage_Visitors_Ind>
+            <Usage_Maintenance_Ind>N</Usage_Maintenance_Ind>
+            <Usage_Racing_Ind>N</Usage_Racing_Ind>
+            <Usage_Drivers_Ed_Events_Ind>N</Usage_Drivers_Ed_Events_Ind>
+            <Usage_General_Transport_Ind>N</Usage_General_Transport_Ind>
+            <Usage_Errands_Ind>N</Usage_Errands_Ind>
+            <Usage_Work_Ind>N</Usage_Work_Ind>
+            <Usage_Vacation_Ind>N</Usage_Vacation_Ind>
+            <Usage_Restaurants_Ind>N</Usage_Restaurants_Ind>
+            <Usage_Recreational_Ind>N</Usage_Recreational_Ind>
+            <Usage_Off_Road_Ind>N</Usage_Off_Road_Ind>
+            <Usage_Other_Ind>N</Usage_Other_Ind>
+            <Registration_Country>USA</Registration_Country>
+            <Locations>
+               <Location>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611109104</Article_ID>
+                  <book_veh_num>1</book_veh_num>
+                  <Loc_Num>1</Loc_Num>
+                  <Loc_Desc>Garage</Loc_Desc>
+                  <Address_Line_1>999 RODEO DR</Address_Line_1>
+                  <City>LOS ANGELES</City>
+                  <State>CA</State>
+                  <Zip>90078</Zip>
+                  <Country>USA</Country>
+               </Location>
+            </Locations>
+            <Vehicle_Products>
+               <Vehicle_Product>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611109104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>180.00</Full_Term_Amount>
+                  <Written_Amount>178.03</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>22.03</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Comprehensive</Product_Desc>
+                  <Product_Code>COMP</Product_Code>
+                  <Ded_1>250</Ded_1>
+                  <Dollar_or_Percent>C</Dollar_or_Percent>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611109104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>124.00</Full_Term_Amount>
+                  <Written_Amount>124.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Collision</Product_Desc>
+                  <Product_Code>COLL</Product_Code>
+                  <Ded_1>500</Ded_1>
+                  <Dollar_or_Percent>C</Dollar_or_Percent>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611109104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>145.00</Full_Term_Amount>
+                  <Written_Amount>145.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Bodily Injury/Property Damage Limit</Product_Desc>
+                  <Product_Code>BIPD</Product_Code>
+                  <Limit_1>500000</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611109104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>25.00</Full_Term_Amount>
+                  <Written_Amount>25.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Medical Payments</Product_Desc>
+                  <Product_Code>MEDPM</Product_Code>
+                  <Limit_1>5000</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611109104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>184.00</Full_Term_Amount>
+                  <Written_Amount>184.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Uninsured/Underinsured Motorist BI Only</Product_Desc>
+                  <Product_Code>UUMBI</Product_Code>
+                  <Limit_1>500000</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611109104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>5.00</Full_Term_Amount>
+                  <Written_Amount>5.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Uninsured Motorist Property Damage</Product_Desc>
+                  <Product_Code>UMPD</Product_Code>
+                  <Limit_1>3500</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611109104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>-132.60</Full_Term_Amount>
+                  <Written_Amount>-132.21</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>-4.41</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Good Driver Discount</Product_Desc>
+                  <Product_Code>GDD</Product_Code>
+                  <MPA_Or_Disc_Surcharge_Selection>Yes</MPA_Or_Disc_Surcharge_Selection>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611109104</Article_ID>
+                  <Product_Cost_Type>F</Product_Cost_Type>
+                  <Full_Term_Amount>1.00</Full_Term_Amount>
+                  <Written_Amount>1.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>Y</Fully_Earned_Ind>
+                  <Product_Desc>Auto Theft Fund</Product_Desc>
+                  <Product_Code>CASURCH</Product_Code>
+                  <MPA_Or_Disc_Surcharge_Selection>Yes</MPA_Or_Disc_Surcharge_Selection>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+            </Vehicle_Products>
+         </Vehicle>
+         <Vehicle>
+            <Contract_ID>71238104</Contract_ID>
+            <Article_ID>1611110104</Article_ID>
+            <Article_Desc>1974 Chevrolet Camaro</Article_Desc>
+            <Article_Type>AAVEH</Article_Type>
+            <Article_Class>C</Article_Class>
+            <Status>D</Status>
+            <Comp_Veh_Num>2</Comp_Veh_Num>
+            <Book_Veh_Num>2</Book_Veh_Num>
+            <Veh_Year>1974</Veh_Year>
+            <Veh_Make>Chevrolet</Veh_Make>
+            <Veh_Model>Camaro</Veh_Model>
+            <Veh_Body_Type_Code>ANTIQ</Veh_Body_Type_Code>
+            <Veh_Vody_Type_Desc>Antique Autos</Veh_Vody_Type_Desc>
+            <Veh_Type_Code>1</Veh_Type_Code>
+            <Veh_Type_Desc>Antique</Veh_Type_Desc>
+            <VIN>V22222222</VIN>
+            <Garaging_Code>P</Garaging_Code>
+            <Garaging_Desc>Enclosed Private Garage</Garaging_Desc>
+            <Annual_Mileage>2500</Annual_Mileage>
+            <Stated_Amount>30000</Stated_Amount>
+            <Condition_Code>Cond1</Condition_Code>
+            <Condition_Desc>1 - Excellent</Condition_Desc>
+            <Usage_Car_Shows_Ind>N</Usage_Car_Shows_Ind>
+            <Usage_Visitors_Ind>N</Usage_Visitors_Ind>
+            <Usage_Maintenance_Ind>N</Usage_Maintenance_Ind>
+            <Usage_Racing_Ind>N</Usage_Racing_Ind>
+            <Usage_Drivers_Ed_Events_Ind>N</Usage_Drivers_Ed_Events_Ind>
+            <Usage_General_Transport_Ind>N</Usage_General_Transport_Ind>
+            <Usage_Errands_Ind>N</Usage_Errands_Ind>
+            <Usage_Work_Ind>N</Usage_Work_Ind>
+            <Usage_Vacation_Ind>N</Usage_Vacation_Ind>
+            <Usage_Restaurants_Ind>N</Usage_Restaurants_Ind>
+            <Usage_Recreational_Ind>N</Usage_Recreational_Ind>
+            <Usage_Off_Road_Ind>N</Usage_Off_Road_Ind>
+            <Usage_Other_Ind>N</Usage_Other_Ind>
+            <Registration_Country>USA</Registration_Country>
+            <Locations>
+               <Location>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611110104</Article_ID>
+                  <book_veh_num>2</book_veh_num>
+                  <Loc_Num>1</Loc_Num>
+                  <Loc_Desc>Garage</Loc_Desc>
+                  <Address_Line_1>999 RODEO DR</Address_Line_1>
+                  <City>LOS ANGELES</City>
+                  <State>CA</State>
+                  <Zip>90078</Zip>
+                  <Country>USA</Country>
+               </Location>
+            </Locations>
+            <Vehicle_Products>
+               <Vehicle_Product>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611110104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>10.58</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>-118.42</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Comprehensive</Product_Desc>
+                  <Product_Code>COMP</Product_Code>
+                  <Ded_1>250</Ded_1>
+                  <Dollar_or_Percent>C</Dollar_or_Percent>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611110104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>6.89</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>-77.11</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Collision</Product_Desc>
+                  <Product_Code>COLL</Product_Code>
+                  <Ded_1>1000</Ded_1>
+                  <Dollar_or_Percent>C</Dollar_or_Percent>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611110104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>7.63</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>-85.37</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Bodily Injury/Property Damage Limit</Product_Desc>
+                  <Product_Code>BIPD</Product_Code>
+                  <Limit_1>500000</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611110104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>1.31</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>-14.69</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Medical Payments</Product_Desc>
+                  <Product_Code>MEDPM</Product_Code>
+                  <Limit_1>5000</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611110104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>9.68</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>-108.32</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Uninsured/Underinsured Motorist BI Only</Product_Desc>
+                  <Product_Code>UUMBI</Product_Code>
+                  <Limit_1>500000</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611110104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>.25</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>-2.75</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Uninsured Motorist Property Damage</Product_Desc>
+                  <Product_Code>UMPD</Product_Code>
+                  <Limit_1>3500</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611110104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>-7.27</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>81.33</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Good Driver Discount</Product_Desc>
+                  <Product_Code>GDD</Product_Code>
+                  <MPA_Or_Disc_Surcharge_Selection>Yes</MPA_Or_Disc_Surcharge_Selection>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611110104</Article_ID>
+                  <Product_Cost_Type>F</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>0.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>-1.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>Y</Fully_Earned_Ind>
+                  <Product_Desc>Auto Theft Fund</Product_Desc>
+                  <Product_Code>CASURCH</Product_Code>
+                  <MPA_Or_Disc_Surcharge_Selection>Yes</MPA_Or_Disc_Surcharge_Selection>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+            </Vehicle_Products>
+         </Vehicle>
+      </Vehicles>
+      <Policy_Articles>
+         <Policy_Article>
+            <Contract_ID>71238104</Contract_ID>
+            <Article_ID>1611107104</Article_ID>
+            <Article_Desc>Line(AUTO), State()</Article_Desc>
+            <Article_Type>LINE</Article_Type>
+            <Article_Class>C</Article_Class>
+            <Status>C</Status>
+            <Policy_Products>
+               <Policy_Product>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611107104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>34.95</Full_Term_Amount>
+                  <Written_Amount>34.95</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Towing and Labor (TLC) - Platinum</Product_Desc>
+                  <Product_Code>PLAT</Product_Code>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Policy_Product>
+               <Policy_Product>
+                  <Contract_ID>71238104</Contract_ID>
+                  <Article_ID>1611107104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>0.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Spare Parts</Product_Desc>
+                  <Product_Code>SP</Product_Code>
+                  <Limit_1>500</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Policy_Product>
+            </Policy_Products>
+         </Policy_Article>
+      </Policy_Articles>
+   </Policy>
+   <Policy>
+      <Entity_ID>15795104</Entity_ID>
+      <Contract_ID>71239104</Contract_ID>
+      <Line_Code>AUTO</Line_Code>
+      <Sub_Line>COLLAUTO</Sub_Line>
+      <Contract_Num>AVP 3822419-00</Contract_Num>
+      <Contract_State>CA</Contract_State>
+      <Revision_Object_Code>Cancel</Revision_Object_Code>
+      <Incept_Date>2017-05-31 16:01:00.000</Incept_Date>
+      <Eff_Date>2017-06-01 00:01:00.000</Eff_Date>
+      <Exp_Date>2018-06-01 00:01:00.000</Exp_Date>
+      <Revision_Eff_Date>2017-07-25 00:01:00.000</Revision_Eff_Date>
+      <Revision_Exp_Date>2018-06-01 00:01:00.000</Revision_Exp_Date>
+      <Cancel_Date>NEED THIS</Cancel_Date>
+      <Reinstate_Date>NEED THIS</Reinstate_Date>
+      <Created_On>NEED THIS</Created_On>
+      <Prior_Contract_Num>NEED THIS</Prior_Contract_Num>
+      <Original_Contract_Num>NEED THIS</Original_Contract_Num>
+      <Renewed_Ind>N</Renewed_Ind>
+      <Renewal_Term>12</Renewal_Term>
+      <New_To_Book_Ind>Y</New_To_Book_Ind>
+      <New_To_Supplier_Ind>Y</New_To_Supplier_Ind>
+      <Non_Renew_Ind>N</Non_Renew_Ind>
+      <Revision_Num>2</Revision_Num>
+      <Inst_Bill_Ind>N</Inst_Bill_Ind>
+      <Written_Prem>111.19</Written_Prem>
+      <Full_Term_Prem>565.35</Full_Term_Prem>
+      <Billed_Prem>-481.65</Billed_Prem>
+      <Written_Fee>1.00</Written_Fee>
+      <Full_Term_Fee>1.00</Full_Term_Fee>
+      <Billed_Fee>0.00</Billed_Fee>
+      <Written_Tax>0.00</Written_Tax>
+      <Full_Term_Tax>0.00</Full_Term_Tax>
+      <Billed_Tax>0.00</Billed_Tax>
+      <Net_Change_Prem>-481.65</Net_Change_Prem>
+      <Net_Change_Tax>0.00</Net_Change_Tax>
+      <Net_Change_Fee>0.00</Net_Change_Fee>
+      <Unbilled_Prem>0.00</Unbilled_Prem>
+      <Unbilled_Tax>0.00</Unbilled_Tax>
+      <Unbilled_Fee>0.00</Unbilled_Fee>
+      <Booked_Prem>-481.65</Booked_Prem>
+      <Booked_Tax>0.00</Booked_Tax>
+      <Booked_Fee>0.00</Booked_Fee>
+      <Min_Earned_Amount>50.00</Min_Earned_Amount>
+      <Entity_Name>MICHAEL PHELPS</Entity_Name>
+      <Indv_First_Name>MICHAEL</Indv_First_Name>
+      <Indv_Middle_Name />
+      <Indv_Last_Name>PHELPS</Indv_Last_Name>
+      <Mail_Address_1>582 RODEO DR</Mail_Address_1>
+      <Mail_City>LOS ANGELES</Mail_City>
+      <Mail_County>Los Angeles</Mail_County>
+      <Mail_Zip>90078</Mail_Zip>
+      <Mail_State>CA</Mail_State>
+      <Accept_Limit_Usage>Y</Accept_Limit_Usage>
+      <All_Adults_Gen_Use_Veh>Y</All_Adults_Gen_Use_Veh>
+      <Enclosed_Private_Garage>N</Enclosed_Private_Garage>
+      <Any_Fire_Flood_Claims>N</Any_Fire_Flood_Claims>
+      <Any_Repairs_Done>N</Any_Repairs_Done>
+      <Active_Military>N</Active_Military>
+      <All_Veh_Cust_Control>N</All_Veh_Cust_Control>
+      <Inexperienced_Drivers>N</Inexperienced_Drivers>
+      <At_Fault_Accidents>N</At_Fault_Accidents>
+      <DUI_Reckless_Conviction>N</DUI_Reckless_Conviction>
+      <Drivers>
+         <Driver>
+            <Contract_ID>71239104</Contract_ID>
+            <Article_ID>1611145104</Article_ID>
+            <Article_Desc>MICHAEL PHELPS</Article_Desc>
+            <Article_Type>AADRVR</Article_Type>
+            <Article_Class>C</Article_Class>
+            <Status>N</Status>
+            <Book_Driver_Num>2</Book_Driver_Num>
+            <Insured_Type>Primary</Insured_Type>
+            <Excluded_Ind>N</Excluded_Ind>
+            <Relation_To_Applicant>I</Relation_To_Applicant>
+            <Relation_To_Applicant_Desc>Self</Relation_To_Applicant_Desc>
+            <Defensive_Driver_Ind>N</Defensive_Driver_Ind>
+            <Will_Drive_Insured_Vehicle>Y</Will_Drive_Insured_Vehicle>
+            <Assigned_Risk_Ind>N</Assigned_Risk_Ind>
+            <Driving_Experience>10</Driving_Experience>
+            <Birth_Date>1956-04-01 00:00:00.000</Birth_Date>
+            <Occupation_Class>SA</Occupation_Class>
+            <Occupation_Class_Desc>Salaried</Occupation_Class_Desc>
+            <Drvr_Lic_Num>H3434343</Drvr_Lic_Num>
+            <Drvr_Lic_State>CA</Drvr_Lic_State>
+            <Marital_Status>P</Marital_Status>
+            <Marital_Status_Desc>Separated</Marital_Status_Desc>
+            <mvr_clean_record_ind>Y</mvr_clean_record_ind>
+            <Violations />
+         </Driver>
+      </Drivers>
+      <Vehicles>
+         <Vehicle>
+            <Contract_ID>71239104</Contract_ID>
+            <Article_ID>1611143104</Article_ID>
+            <Article_Desc>1965 Ford Mustang</Article_Desc>
+            <Article_Type>AAVEH</Article_Type>
+            <Article_Class>C</Article_Class>
+            <Status>N</Status>
+            <Comp_Veh_Num>1</Comp_Veh_Num>
+            <Book_Veh_Num>1</Book_Veh_Num>
+            <Veh_Year>1965</Veh_Year>
+            <Veh_Make>Ford</Veh_Make>
+            <Veh_Model>Mustang</Veh_Model>
+            <Veh_Body_Type_Code>2drS</Veh_Body_Type_Code>
+            <Veh_Vody_Type_Desc>2dr Sed</Veh_Vody_Type_Desc>
+            <Veh_Type_Code>1</Veh_Type_Code>
+            <Veh_Type_Desc>Antique</Veh_Type_Desc>
+            <VIN>VN1111111</VIN>
+            <Garaging_Code>P</Garaging_Code>
+            <Garaging_Desc>Enclosed Private Garage</Garaging_Desc>
+            <Annual_Mileage>5000</Annual_Mileage>
+            <Stated_Amount>40000</Stated_Amount>
+            <Condition_Code>Cond1</Condition_Code>
+            <Condition_Desc>1 - Excellent</Condition_Desc>
+            <Usage_Car_Shows_Ind>N</Usage_Car_Shows_Ind>
+            <Usage_Visitors_Ind>N</Usage_Visitors_Ind>
+            <Usage_Maintenance_Ind>N</Usage_Maintenance_Ind>
+            <Usage_Racing_Ind>N</Usage_Racing_Ind>
+            <Usage_Drivers_Ed_Events_Ind>N</Usage_Drivers_Ed_Events_Ind>
+            <Usage_General_Transport_Ind>N</Usage_General_Transport_Ind>
+            <Usage_Errands_Ind>N</Usage_Errands_Ind>
+            <Usage_Work_Ind>N</Usage_Work_Ind>
+            <Usage_Vacation_Ind>N</Usage_Vacation_Ind>
+            <Usage_Restaurants_Ind>N</Usage_Restaurants_Ind>
+            <Usage_Recreational_Ind>N</Usage_Recreational_Ind>
+            <Usage_Off_Road_Ind>N</Usage_Off_Road_Ind>
+            <Usage_Other_Ind>N</Usage_Other_Ind>
+            <Registration_Country>USA</Registration_Country>
+            <Locations>
+               <Location>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611143104</Article_ID>
+                  <book_veh_num>1</book_veh_num>
+                  <Loc_Num>1</Loc_Num>
+                  <Loc_Desc>Garage</Loc_Desc>
+                  <Address_Line_1>999 RODEO DR</Address_Line_1>
+                  <City>LOS ANGELES</City>
+                  <State>CA</State>
+                  <Zip>90078</Zip>
+                  <Country>USA</Country>
+               </Location>
+            </Locations>
+            <Vehicle_Products>
+               <Vehicle_Product>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611143104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>180.00</Full_Term_Amount>
+                  <Written_Amount>25.93</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>-152.10</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Comprehensive</Product_Desc>
+                  <Product_Code>COMP</Product_Code>
+                  <Ded_1>250</Ded_1>
+                  <Dollar_or_Percent>C</Dollar_or_Percent>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611143104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>124.00</Full_Term_Amount>
+                  <Written_Amount>18.06</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>-105.94</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Collision</Product_Desc>
+                  <Product_Code>COLL</Product_Code>
+                  <Ded_1>500</Ded_1>
+                  <Dollar_or_Percent>C</Dollar_or_Percent>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611143104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>145.00</Full_Term_Amount>
+                  <Written_Amount>21.12</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>-123.88</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Bodily Injury/Property Damage Limit</Product_Desc>
+                  <Product_Code>BIPD</Product_Code>
+                  <Limit_1>500000</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611143104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>25.00</Full_Term_Amount>
+                  <Written_Amount>3.64</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>-21.36</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Medical Payments</Product_Desc>
+                  <Product_Code>MEDPM</Product_Code>
+                  <Limit_1>5000</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611143104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>184.00</Full_Term_Amount>
+                  <Written_Amount>26.81</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>-157.19</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Uninsured/Underinsured Motorist BI Only</Product_Desc>
+                  <Product_Code>UUMBI</Product_Code>
+                  <Limit_1>500000</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611143104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>5.00</Full_Term_Amount>
+                  <Written_Amount>.73</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>-4.27</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Uninsured Motorist Property Damage</Product_Desc>
+                  <Product_Code>UMPD</Product_Code>
+                  <Limit_1>3500</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611143104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>-132.60</Full_Term_Amount>
+                  <Written_Amount>-19.26</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>112.95</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Good Driver Discount</Product_Desc>
+                  <Product_Code>GDD</Product_Code>
+                  <MPA_Or_Disc_Surcharge_Selection>Yes</MPA_Or_Disc_Surcharge_Selection>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611143104</Article_ID>
+                  <Product_Cost_Type>F</Product_Cost_Type>
+                  <Full_Term_Amount>1.00</Full_Term_Amount>
+                  <Written_Amount>1.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>Y</Fully_Earned_Ind>
+                  <Product_Desc>Auto Theft Fund</Product_Desc>
+                  <Product_Code>CASURCH</Product_Code>
+                  <MPA_Or_Disc_Surcharge_Selection>Yes</MPA_Or_Disc_Surcharge_Selection>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+            </Vehicle_Products>
+         </Vehicle>
+         <Vehicle>
+            <Contract_ID>71239104</Contract_ID>
+            <Article_ID>1611144104</Article_ID>
+            <Article_Desc>1974 Chevrolet Camaro</Article_Desc>
+            <Article_Type>AAVEH</Article_Type>
+            <Article_Class>C</Article_Class>
+            <Status>X</Status>
+            <Comp_Veh_Num>2</Comp_Veh_Num>
+            <Book_Veh_Num>2</Book_Veh_Num>
+            <Veh_Year>1974</Veh_Year>
+            <Veh_Make>Chevrolet</Veh_Make>
+            <Veh_Model>Camaro</Veh_Model>
+            <Veh_Body_Type_Code>ANTIQ</Veh_Body_Type_Code>
+            <Veh_Vody_Type_Desc>Antique Autos</Veh_Vody_Type_Desc>
+            <Veh_Type_Code>1</Veh_Type_Code>
+            <Veh_Type_Desc>Antique</Veh_Type_Desc>
+            <VIN>V22222222</VIN>
+            <Garaging_Code>P</Garaging_Code>
+            <Garaging_Desc>Enclosed Private Garage</Garaging_Desc>
+            <Annual_Mileage>2500</Annual_Mileage>
+            <Stated_Amount>30000</Stated_Amount>
+            <Condition_Code>Cond1</Condition_Code>
+            <Condition_Desc>1 - Excellent</Condition_Desc>
+            <Usage_Car_Shows_Ind>N</Usage_Car_Shows_Ind>
+            <Usage_Visitors_Ind>N</Usage_Visitors_Ind>
+            <Usage_Maintenance_Ind>N</Usage_Maintenance_Ind>
+            <Usage_Racing_Ind>N</Usage_Racing_Ind>
+            <Usage_Drivers_Ed_Events_Ind>N</Usage_Drivers_Ed_Events_Ind>
+            <Usage_General_Transport_Ind>N</Usage_General_Transport_Ind>
+            <Usage_Errands_Ind>N</Usage_Errands_Ind>
+            <Usage_Work_Ind>N</Usage_Work_Ind>
+            <Usage_Vacation_Ind>N</Usage_Vacation_Ind>
+            <Usage_Restaurants_Ind>N</Usage_Restaurants_Ind>
+            <Usage_Recreational_Ind>N</Usage_Recreational_Ind>
+            <Usage_Off_Road_Ind>N</Usage_Off_Road_Ind>
+            <Usage_Other_Ind>N</Usage_Other_Ind>
+            <Registration_Country>USA</Registration_Country>
+            <Locations>
+               <Location>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611144104</Article_ID>
+                  <book_veh_num>2</book_veh_num>
+                  <Loc_Num>1</Loc_Num>
+                  <Loc_Desc>Garage</Loc_Desc>
+                  <Address_Line_1>999 RODEO DR</Address_Line_1>
+                  <City>LOS ANGELES</City>
+                  <State>CA</State>
+                  <Zip>90078</Zip>
+                  <Country>USA</Country>
+               </Location>
+            </Locations>
+            <Vehicle_Products>
+               <Vehicle_Product>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611144104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>10.58</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Comprehensive</Product_Desc>
+                  <Product_Code>COMP</Product_Code>
+                  <Ded_1>250</Ded_1>
+                  <Dollar_or_Percent>C</Dollar_or_Percent>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611144104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>6.89</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Collision</Product_Desc>
+                  <Product_Code>COLL</Product_Code>
+                  <Ded_1>1000</Ded_1>
+                  <Dollar_or_Percent>C</Dollar_or_Percent>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611144104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>7.63</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Bodily Injury/Property Damage Limit</Product_Desc>
+                  <Product_Code>BIPD</Product_Code>
+                  <Limit_1>500000</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611144104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>1.31</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Medical Payments</Product_Desc>
+                  <Product_Code>MEDPM</Product_Code>
+                  <Limit_1>5000</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611144104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>9.68</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Uninsured/Underinsured Motorist BI Only</Product_Desc>
+                  <Product_Code>UUMBI</Product_Code>
+                  <Limit_1>500000</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611144104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>.25</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Uninsured Motorist Property Damage</Product_Desc>
+                  <Product_Code>UMPD</Product_Code>
+                  <Limit_1>3500</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611144104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>-7.27</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Good Driver Discount</Product_Desc>
+                  <Product_Code>GDD</Product_Code>
+                  <MPA_Or_Disc_Surcharge_Selection>Yes</MPA_Or_Disc_Surcharge_Selection>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+               <Vehicle_Product>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611144104</Article_ID>
+                  <Product_Cost_Type>F</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>0.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>Y</Fully_Earned_Ind>
+                  <Product_Desc>Auto Theft Fund</Product_Desc>
+                  <Product_Code>CASURCH</Product_Code>
+                  <MPA_Or_Disc_Surcharge_Selection>Yes</MPA_Or_Disc_Surcharge_Selection>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Vehicle_Product>
+            </Vehicle_Products>
+         </Vehicle>
+      </Vehicles>
+      <Policy_Articles>
+         <Policy_Article>
+            <Contract_ID>71239104</Contract_ID>
+            <Article_ID>1611141104</Article_ID>
+            <Article_Desc>Line(AUTO), State()</Article_Desc>
+            <Article_Type>LINE</Article_Type>
+            <Article_Class>C</Article_Class>
+            <Status>N</Status>
+            <Policy_Products>
+               <Policy_Product>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611141104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>34.95</Full_Term_Amount>
+                  <Written_Amount>5.09</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>-29.86</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Towing and Labor (TLC) - Platinum</Product_Desc>
+                  <Product_Code>PLAT</Product_Code>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Policy_Product>
+               <Policy_Product>
+                  <Contract_ID>71239104</Contract_ID>
+                  <Article_ID>1611141104</Article_ID>
+                  <Product_Cost_Type>P</Product_Cost_Type>
+                  <Full_Term_Amount>0.00</Full_Term_Amount>
+                  <Written_Amount>0.00</Written_Amount>
+                  <Unbilled_Amount>0.00</Unbilled_Amount>
+                  <Net_Change_Amount>0.00</Net_Change_Amount>
+                  <Fully_Earned_Ind>N</Fully_Earned_Ind>
+                  <Product_Desc>Spare Parts</Product_Desc>
+                  <Product_Code>SP</Product_Code>
+                  <Limit_1>500</Limit_1>
+                  <Rejected_Ind>N</Rejected_Ind>
+               </Policy_Product>
+            </Policy_Products>
+         </Policy_Article>
+      </Policy_Articles>
+   </Policy>
+</Policies>
