@@ -10,11 +10,11 @@ The Camel routes used in this example are explained by the following diagram:
 
 The following are required to run this project:
 
-(1) JDK 1.8 or newer
-(2) Maven 3.3 or newer
-(3) SOAPUi for the mock SOAP endpoint
-(4) MySQL or any RDBMS
-(5) An SFTP server
+1. JDK 1.8 or newer
+2. Maven 3.3 or newer
+3. SOAPUi for the mock SOAP endpoint
+4. MySQL or any RDBMS
+5. An SFTP server
 
 ### Building
 
