@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:camel-cxf="http://camel.apache.org/schema/cxf"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://camel.apache.org/schema/cxf http://camel.apache.org/schema/cxf/camel-cxf.xsd">
+
+
+	<bean class="javax.xml.soap.SOAPException" id="eisException">
+		<constructor-arg index="0"
+			value="Unable to connect to EIS via SOAP" />
+	</bean>
+	<bean class="org.apache.cxf.transport.common.gzip.GZIPInInterceptor"
+		id="gZipInInterceptor" />
+	<bean class="org.apache.cxf.transport.common.gzip.GZIPOutInterceptor"
+		id="gZipOutInterceptor" />
+	<camel-cxf:cxfEndpoint
+		address="${cxf.url}"
+		id="eisRequestClient" serviceClass="org.example.test.Test">
+		<camel-cxf:inInterceptors>
+			<ref bean="gZipInInterceptor" />
+		</camel-cxf:inInterceptors>
+		<camel-cxf:outInterceptors>
+			<ref bean="gZipOutInterceptor" />
+		</camel-cxf:outInterceptors>
+<!-- 		<camel-cxf:properties> -->
+<!-- 			<entry key="dataFormat" value="MESSAGE" /> -->
+<!-- 		</camel-cxf:properties> -->
+	</camel-cxf:cxfEndpoint>
+
+</beans>

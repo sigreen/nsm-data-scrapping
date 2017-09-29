@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="e70b65ae-039c-4783-89ee-b5a80a1ac84a" activeEnvironment="Default" name="EIS" resourceRoot="" soapui-version="5.3.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="336d99c3-9647-4dc9-93bf-6d67895e7331" wsaVersion="NONE" name="TestSOAP" type="wsdl" bindingName="{http://www.example.org/Test/}TestSOAP" soapVersion="1_1" anonymous="optional" definition="file:/Users/sigreen/Documents/projects/aig/Fuse-PoC/nsm-data-scrapping/src/main/resources/schema/eis.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:/Users/sigreen/Documents/projects/aig/Fuse-PoC/nsm-data-scrapping/src/main/resources/schema/eis.wsdl"><con:part><con:url>file:/Users/sigreen/Documents/projects/aig/Fuse-PoC/nsm-data-scrapping/src/main/resources/schema/eis.wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="Test" targetNamespace="http://www.example.org/Test/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.example.org/Test/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.example.org/Test/">
+      <xsd:element name="putXml">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="payload" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="putXmlResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="ack" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="putXmlRequest">
+    <wsdl:part element="tns:putXml" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="putXmlResponse">
+    <wsdl:part element="tns:putXmlResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:portType name="Test">
+    <wsdl:operation name="putXml">
+      <wsdl:input message="tns:putXmlRequest"/>
+      <wsdl:output message="tns:putXmlResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="TestSOAP" type="tns:Test">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="putXml">
+      <soap:operation soapAction="http://www.example.org/Test/putXml"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Test">
+    <wsdl:port binding="tns:TestSOAP" name="TestSOAP">
+      <soap:address location="http://0.0.0.0:8181/postToEIS"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://0.0.0.0:8181/postToEIS</con:endpoint><con:endpoint>http://Simons-MacBook-Pro.local:8089/postToEIS</con:endpoint></con:endpoints><con:operation id="eb7627a8-9e93-43ed-986a-306d50de9c0b" isOneWay="false" action="http://www.example.org/Test/putXml" name="putXml" bindingOperationName="putXml" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="5a32cc69-43c6-45f5-8169-21581cdea612" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://0.0.0.0:8089/postToEIS</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:test="http://www.example.org/Test/">
+   <soapenv:Header/>
+   <soapenv:Body>
+   <test:putXml>
+         <payload>
+<Policies name="PCGAuto" version="1" rootEntityType="policy">
+    <Policy state="created">
+        <accountingPeriod>2017-09</accountingPeriod>
+        <cancellationNoticeNumber>0</cancellationNoticeNumber>
+        <cappingFactor>0</cappingFactor>
+        <collectorscarinnb>0</collectorscarinnb>
+        <commissionRate>0.0</commissionRate>
+        <convExpCreditScore>0</convExpCreditScore>
+        <convExpTierExposurePolMakeup>0</convExpTierExposurePolMakeup>
+        <convExpTierIncidentFreeYears>0</convExpTierIncidentFreeYears>
+        <customerNumber>0</customerNumber>
+        <earlyShopperDayDifference>0</earlyShopperDayDifference>
+        <insuranceScore>0</insuranceScore>
+        <nbmaxacoverage>0</nbmaxacoverage>
+        <prevRenewalCycleNum>0</prevRenewalCycleNum>
+        <priorPolicyPrem>0</priorPolicyPrem>
+        <priorToPriorTermPrem>0</priorToPriorTermPrem>
+        <producerCd>0</producerCd>
+        <rateStabilizationFactor1>0</rateStabilizationFactor1>
+        <rateStabilizationFactor2>0</rateStabilizationFactor2>
+        <rateStabilizationFactor3>0</rateStabilizationFactor3>
+        <subProducerCd>0</subProducerCd>
+        <underwriterCd>0</underwriterCd>
+        <Driver>
+            <age>0</age>
+            <ageFirstLicensed>0</ageFirstLicensed>
+            <annualIncome>0</annualIncome>
+            <birthDate>1956-04-01 00:00:00.000</birthDate>
+            <convOldDriverNumber>0</convOldDriverNumber>
+            <driverRelToApplicantCd>Self</driverRelToApplicantCd>
+            <maritalStatusCode>Separated</maritalStatusCode>
+            <stateProvCd>CA</stateProvCd>
+        </Driver>
+        <Vehicle>
+            <abiCd>0</abiCd>
+            <agreedValue>0</agreedValue>
+            <avrgAnnualMiles>0</avrgAnnualMiles>
+            <convoldVehicleNumber>0</convoldVehicleNumber>
+            <ctyTaxMintAmt>0</ctyTaxMintAmt>
+            <ctyTaxPercAmt>0</ctyTaxPercAmt>
+            <engineSize>0</engineSize>
+            <height>0.0</height>
+            <manufacturer>Ford</manufacturer>
+            <marketValue>0</marketValue>
+            <model>Mustang</model>
+            <modelYear>0</modelYear>
+            <repAnnualMiles>0</repAnnualMiles>
+            <titleTransNo>0</titleTransNo>
+            <titleTransVerNo>0</titleTransVerNo>
+            <vehIdentificationNo>VN1111111</vehIdentificationNo>
+            <verAnnualMiles>5000</verAnnualMiles>
+            <vinStyle>0</vinStyle>
+        </Vehicle>
+        <Vehicle>
+            <abiCd>0</abiCd>
+            <agreedValue>0</agreedValue>
+            <avrgAnnualMiles>0</avrgAnnualMiles>
+            <convoldVehicleNumber>0</convoldVehicleNumber>
+            <ctyTaxMintAmt>0</ctyTaxMintAmt>
+            <ctyTaxPercAmt>0</ctyTaxPercAmt>
+            <engineSize>0</engineSize>
+            <height>0.0</height>
+            <manufacturer>Chevrolet</manufacturer>
+            <marketValue>0</marketValue>
+            <model>Camaro</model>
+            <modelYear>0</modelYear>
+            <repAnnualMiles>0</repAnnualMiles>
+            <titleTransNo>0</titleTransNo>
+            <titleTransVerNo>0</titleTransVerNo>
+            <vehIdentificationNo>V22222222</vehIdentificationNo>
+            <verAnnualMiles>2500</verAnnualMiles>
+            <vinStyle>0</vinStyle>
+        </Vehicle>
+    </Policy>
+</Policies>
+</payload>
+      </test:putXml>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.example.org/Test/putXml"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:mockService id="d3c8c856-f727-4fc9-bd55-cf1b53e41bc2" port="8089" path="/postToEIS" host="Simons-MacBook-Pro.local" name="putXML MockService" bindToHostOnly="false" docroot=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.mock.WsdlMockService@require-soap-action">false</con:setting></con:settings><con:properties/><con:mockOperation name="putXml" id="4981b501-bae7-4090-a482-f66b01a2db66" interface="TestSOAP" operation="putXml"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:response name="Response 1" id="c4e3f612-1d60-4bd3-b479-a87c532aea79" httpResponseStatus="200" encoding="UTF-8"><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:test="http://www.example.org/Test/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <test:putXmlResponse>
+         <ack>OK</ack>
+      </test:putXmlResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.example.org/Test/putXml"/></con:response><con:dispatchConfig/></con:mockOperation></con:mockService><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>

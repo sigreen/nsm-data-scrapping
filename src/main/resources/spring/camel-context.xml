@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:camel="http://camel.apache.org/schema/spring" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
+	xmlns:camel-cxf="http://camel.apache.org/schema/cxf" xmlns:camel="http://camel.apache.org/schema/spring"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+			        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
+			        http://camel.apache.org/schema/cxf http://camel.apache.org/schema/cxf/camel-cxf.xsd">
 	<camelContext id="camel" xmlns="http://camel.apache.org/schema/spring">
 		<endpoint id="NSMtoCIP"
 			uri="dozer:NSMtoCIP?sourceModel=generated_1506187282094.Policy&amp;targetModel=generated_1506187282978.Policies&amp;marshalId=generated_1506187282978&amp;unmarshalId=generated_1506187282094&amp;mappingFile=transformation.xml" />
@@ -11,7 +14,7 @@
 		</dataFormats>
 		<route id="pull-nsm-file">
 			<from id="sftp-pull"
-				uri="sftp://localhost:22/Users/Shared/sftp/?username=camel&amp;password=Abcd1234&amp;move=.done&amp;moveFailed=.error" />
+				uri="sftp://{{sftp.host}}:{{sftp.port}}/Users/Shared/sftp/?username={{sftp.user}}&amp;password={{sftp.password}}&amp;move=.done&amp;moveFailed=.error" />
 			<convertBodyTo id="_convertBodyTo1" type="java.lang.String" />
 			<split id="_split1">
 				<xpath>/Policies/Policy</xpath>
@@ -43,6 +46,16 @@
 				uri="sql:SELECT * FROM NSM_MESSAGE_STORE WHERE PROCESSED=false?onConsume=UPDATE NSM_MESSAGE_STORE set PROCESSED = true where MESSAGE_ID = :#MESSAGE_ID" />
 			<split>
 				<simple>${body}</simple>
+				<setHeader headerName="batchID">
+					<simple>
+						${body[BATCH_ID]}
+					</simple>
+				</setHeader>
+				<setHeader headerName="fileID">
+					<simple>
+						${body[FILE_ID]}
+					</simple>
+				</setHeader>
 				<setBody>
 					<simple>
 						${body[MESSAGE]}
@@ -50,9 +63,64 @@
 				</setBody>
 				<to uri="ref:NSMtoCIP" />
 				<to uri="amq:formattedMessageChannel" />
-				<to uri="sql:INSERT INTO CIP_MESSAGE_STORE (BATCH_ID, FILE_ID, MESSAGE, PROCESSED) VALUES(:#breadcrumbId, :#CamelFileRelativePath, :#${body}, false);" />
-
+				<to
+					uri="sql:INSERT INTO CIP_MESSAGE_STORE (BATCH_ID, FILE_ID, MESSAGE, PROCESSED) VALUES(:#batchID, :#fileID, :#${body}, false);" />
 			</split>
+		</route>
+		<route id="message-resequencer">
+			<from
+				uri="sql:select * from CIP_MESSAGE_STORE WHERE BATCH_ID = (select BATCH_ID from CIP_MESSAGE_STORE WHERE PROCESSED=false GROUP BY BATCH_ID LIMIT 1) ORDER BY MESSAGE_ID?onConsume=UPDATE CIP_MESSAGE_STORE set PROCESSED = true where MESSAGE_ID = :#MESSAGE_ID" />
+			<split>
+				<simple>${body}</simple>
+				<setHeader headerName="batchID">
+					<simple>
+						${body[BATCH_ID]}
+					</simple>
+				</setHeader>
+				<setHeader headerName="fileID">
+					<simple>
+						${body[FILE_ID]}
+					</simple>
+				</setHeader>
+				<setHeader headerName="messageSqNum">
+					<simple>
+						${body[MESSAGE_ID]}
+					</simple>
+				</setHeader>
+				<setBody>
+					<simple>
+						${body[MESSAGE]}
+					</simple>
+				</setBody>
+				<to uri="amq:outgoingMessageChannel" />
+			</split>
+		</route>
+		<route id="send-to-eis">
+			<from uri="amq:outgoingMessageChannel" />
+			<onException useOriginalMessage="true">
+				<exception>javax.xml.soap.SOAPException</exception>
+				<continued>
+					<constant>true</constant>
+				</continued>
+				<log
+					message="EIS connectivity error.  Error is ${exception.message}. Message contents: ${body}" />
+				<setHeader headerName="errorMessage">
+					<simple>${exception.message}</simple>
+				</setHeader>
+				<inOnly uri="activemq:outgoingErrorMessages" />
+			</onException>
+			<removeHeaders pattern="*"/>
+			<convertBodyTo  type="java.lang.String" />
+			<setHeader headerName="operationNamespace">
+				<constant>http://www.example.org/Test/</constant>
+			</setHeader>
+			<setHeader headerName="operationName">
+				<constant>putXml</constant>
+			</setHeader>
+			<to uri="cxf:bean:eisRequestClient" />
+			<log
+				message="Response Code: [${header.CamelCxfMessage[org.apache.cxf.message.Message.RESPONSE_CODE]}]" />
+			<log message="Response Body: [${body}]" />
 		</route>
 	</camelContext>
 </beans>
