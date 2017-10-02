@@ -18,9 +18,12 @@ The following are required to run this project:
 
 ### Building
 
-The example can be built with
 
-    mvn clean install
+1. Update the `support\sample-settings.xml` file with your local maven respository path (located on line 3)
+
+2. The example can be built with
+
+    mvn -s support/sample-settings.xml clean install
     
 Additionally, please ensure the following has been configured:
 
@@ -34,13 +37,13 @@ Additionally, please ensure the following has been configured:
 
 The example can be run as a standalone SpringBoot instance by executing:
 
-	mvn spring-boot:run
+	mvn -s support/settings.xml spring-boot:run
 
 ### Running the example in Docker
 
 To build to the project:
 
-    mvn clean package docker:build   
+    mvn -s support/settings.xml clean package docker:build   
         
     docker run -t example/nsm-data-scrapping
      
