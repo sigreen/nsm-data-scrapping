@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:camel-cxf="http://camel.apache.org/schema/cxf" xmlns:camel="http://camel.apache.org/schema/spring"
+	xmlns:camel="http://camel.apache.org/schema/spring" xmlns:camel-cxf="http://camel.apache.org/schema/cxf"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-			        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
-			        http://camel.apache.org/schema/cxf http://camel.apache.org/schema/cxf/camel-cxf.xsd">
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd            http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd            http://camel.apache.org/schema/cxf http://camel.apache.org/schema/cxf/camel-cxf.xsd">
 	<camelContext id="camel" xmlns="http://camel.apache.org/schema/spring">
 		<endpoint id="NSMtoCIP"
 			uri="dozer:NSMtoCIP?sourceModel=generated_1506187282094.Policy&amp;targetModel=generated_1506187282978.Policies&amp;marshalId=generated_1506187282978&amp;unmarshalId=generated_1506187282094&amp;mappingFile=transformation.xml" />
@@ -42,85 +40,87 @@
 				uri="sql:INSERT INTO NSM_MESSAGE_STORE (BATCH_ID, FILE_ID, MESSAGE, PROCESSED) VALUES(:#breadcrumbId, :#CamelFileRelativePath, :#${body}, false);" />
 		</route>
 		<route id="message-transformation">
-			<from
+			<from id="_from2"
 				uri="sql:SELECT * FROM NSM_MESSAGE_STORE WHERE PROCESSED=false?onConsume=UPDATE NSM_MESSAGE_STORE set PROCESSED = true where MESSAGE_ID = :#MESSAGE_ID" />
-			<split>
+			<split id="_split2">
 				<simple>${body}</simple>
-				<setHeader headerName="batchID">
+				<setHeader headerName="batchID" id="_setHeader1">
 					<simple>
 						${body[BATCH_ID]}
 					</simple>
 				</setHeader>
-				<setHeader headerName="fileID">
+				<setHeader headerName="fileID" id="_setHeader3">
 					<simple>
 						${body[FILE_ID]}
 					</simple>
 				</setHeader>
-				<setBody>
+				<setBody id="_setBody1">
 					<simple>
 						${body[MESSAGE]}
 					</simple>
 				</setBody>
-				<to uri="ref:NSMtoCIP" />
-				<to uri="amq:formattedMessageChannel" />
+				<to id="_to6" uri="ref:NSMtoCIP" />
+				<convertBodyTo type="java.lang.String" />
+				<to id="_to7" uri="amq:formattedMessageChannel" />
 				<to
 					uri="sql:INSERT INTO CIP_MESSAGE_STORE (BATCH_ID, FILE_ID, MESSAGE, PROCESSED) VALUES(:#batchID, :#fileID, :#${body}, false);" />
 			</split>
 		</route>
 		<route id="message-resequencer">
-			<from
+			<from id="_from3"
 				uri="sql:select * from CIP_MESSAGE_STORE WHERE BATCH_ID = (select BATCH_ID from CIP_MESSAGE_STORE WHERE PROCESSED=false GROUP BY BATCH_ID LIMIT 1) ORDER BY MESSAGE_ID?onConsume=UPDATE CIP_MESSAGE_STORE set PROCESSED = true where MESSAGE_ID = :#MESSAGE_ID" />
-			<split>
+			<split id="_split3">
 				<simple>${body}</simple>
-				<setHeader headerName="batchID">
+				<setHeader headerName="batchID" id="_setHeader4">
 					<simple>
 						${body[BATCH_ID]}
 					</simple>
 				</setHeader>
-				<setHeader headerName="fileID">
+				<setHeader headerName="fileID" id="_setHeader5">
 					<simple>
 						${body[FILE_ID]}
 					</simple>
 				</setHeader>
-				<setHeader headerName="messageSqNum">
+				<setHeader headerName="messageSqNum" id="_setHeader6">
 					<simple>
 						${body[MESSAGE_ID]}
 					</simple>
 				</setHeader>
-				<setBody>
+				<setBody id="_setBody2">
 					<simple>
 						${body[MESSAGE]}
 					</simple>
 				</setBody>
-				<to uri="amq:outgoingMessageChannel" />
+				<to id="_to9" uri="amq:outgoingMessageChannel" />
 			</split>
 		</route>
 		<route id="send-to-eis">
-			<from uri="amq:outgoingMessageChannel" />
-			<onException useOriginalMessage="true">
+			<from id="_from4" uri="amq:outgoingMessageChannel" />
+			<onException id="_onException2" useOriginalMessage="true">
 				<exception>javax.xml.soap.SOAPException</exception>
 				<continued>
 					<constant>true</constant>
 				</continued>
-				<log
+				<log id="_log2"
 					message="EIS connectivity error.  Error is ${exception.message}. Message contents: ${body}" />
-				<setHeader headerName="errorMessage">
+				<setHeader headerName="errorMessage" id="_setHeader7">
 					<simple>${exception.message}</simple>
 				</setHeader>
-				<inOnly uri="activemq:outgoingErrorMessages" />
+				<inOnly id="_inOnly2" uri="activemq:outgoingErrorMessages" />
 			</onException>
-			<removeHeaders pattern="*"/>
-			<convertBodyTo  type="java.lang.String" />
-			<setHeader headerName="operationNamespace">
+			<removeHeaders id="_removeHeaders1" pattern="*" />
+			<convertBodyTo id="_convertBodyTo2" type="java.lang.String" />
+			<log message="Converted body: [${body}]" />
+			<setHeader headerName="operationNamespace" id="_setHeader8">
 				<constant>http://www.example.org/Test/</constant>
 			</setHeader>
-			<setHeader headerName="operationName">
+			<setHeader headerName="operationName" id="_setHeader9">
 				<constant>putXml</constant>
 			</setHeader>
-			<to uri="cxf:bean:eisRequestClient" />
-			<log
+			<to id="_to10" uri="cxf:bean:eisRequestClient" />
+			<log id="_log3"
 				message="Response Code: [${header.CamelCxfMessage[org.apache.cxf.message.Message.RESPONSE_CODE]}]" />
-			<log message="Response Body: [${body}]" />
+			<log id="_log4" message="Response Body: [${body}]" />
 		</route>
 	</camelContext>
 </beans>

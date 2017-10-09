@@ -13,18 +13,35 @@
 		id="gZipInInterceptor" />
 	<bean class="org.apache.cxf.transport.common.gzip.GZIPOutInterceptor"
 		id="gZipOutInterceptor" />
-	<camel-cxf:cxfEndpoint
-		address="${cxf.url}"
-		id="eisRequestClient" serviceClass="org.example.test.Test">
+	<!-- The interceptors bean definitions - used for logging SOAP requests. -->
+	<!-- They can be removed, when no logging is needed -->
+	<bean id="abstractLoggingInterceptor" abstract="true">
+		<property name="prettyLogging" value="true" />
+	</bean>
+	<bean id="loggingInInterceptor" class="org.apache.cxf.interceptor.LoggingInInterceptor"
+		parent="abstractLoggingInterceptor" />
+	<bean id="loggingOutInterceptor" class="org.apache.cxf.interceptor.LoggingOutInterceptor"
+		parent="abstractLoggingInterceptor" />
+	<bean id="CDataWriterInterceptor" class="org.redhat.beans.CDataWriterInterceptor" />
+	<camel-cxf:cxfEndpoint address="${cxf.url}" id="eisRequestClient"
+		serviceClass="org.example.test.Test">
 		<camel-cxf:inInterceptors>
 			<ref bean="gZipInInterceptor" />
+			<ref bean="loggingInInterceptor" />
+
 		</camel-cxf:inInterceptors>
 		<camel-cxf:outInterceptors>
 			<ref bean="gZipOutInterceptor" />
+			<ref bean="loggingOutInterceptor" />
+			<ref bean="CDataWriterInterceptor" />
 		</camel-cxf:outInterceptors>
-<!-- 		<camel-cxf:properties> -->
-<!-- 			<entry key="dataFormat" value="MESSAGE" /> -->
-<!-- 		</camel-cxf:properties> -->
+
+		<camel-cxf:outFaultInterceptors>
+			<ref bean="loggingOutInterceptor" />
+		</camel-cxf:outFaultInterceptors>
+		<camel-cxf:inFaultInterceptors>
+			<ref bean="loggingInInterceptor" />
+		</camel-cxf:inFaultInterceptors>
 	</camel-cxf:cxfEndpoint>
 
 </beans>
