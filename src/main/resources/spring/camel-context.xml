@@ -110,14 +110,15 @@
 			</onException>
 			<removeHeaders id="_removeHeaders1" pattern="*" />
 			<convertBodyTo id="_convertBodyTo2" type="java.lang.String" />
-			<log message="Converted body: [${body}]" />
+			<to uri="xslt:stylesheet/createSOAPRequest.xslt" />
+			<log message="Converted SOAP body: [${body}]" />
 			<setHeader headerName="operationNamespace" id="_setHeader8">
 				<constant>http://www.example.org/Test/</constant>
 			</setHeader>
 			<setHeader headerName="operationName" id="_setHeader9">
 				<constant>putXml</constant>
 			</setHeader>
-			<to id="_to10" uri="cxf:bean:eisRequestClient" />
+			<to id="_to10" uri="cxf:bean:eisRequestClient?dataFormat=MESSAGE" />
 			<log id="_log3"
 				message="Response Code: [${header.CamelCxfMessage[org.apache.cxf.message.Message.RESPONSE_CODE]}]" />
 			<log id="_log4" message="Response Body: [${body}]" />
