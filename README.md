@@ -54,3 +54,7 @@ After you've finished running the docker example, be sure to tidy up:
      docker ps (to obtain the container ID)
      docker stop <container ID>
      docker rm <container ID>
+     
+### Viewing the Fuse Management Console (HawtIO)
+
+Once the application has started up successfully, in any web browser, go to `localhost:8080/hawtio/index.html` and select the Camel tab. You should see your Camel Routes running.
